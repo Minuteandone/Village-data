@@ -1,0 +1,66 @@
+name: Export AI Village messages
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Village slug (blank = config.json)'
+        required: false
+        type: string
+      start_date:
+        description: 'First date YYYY-MM-DD (inclusive)'
+        required: false
+        type: string
+      end_date:
+        description: 'Last date YYYY-MM-DD (inclusive)'
+        required: false
+        type: string
+      retries:
+        description: 'Extra retries per HTTP request'
+        required: false
+        type: string
+      retry_delay_seconds:
+        description: 'Base delay between retries, in seconds'
+        required: false
+        type: string
+      day_retries:
+        description: 'Extra attempts to refetch a failed day'
+        required: false
+        type: string
+      timezone:
+        description: 'IANA time zone for displayed times'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Export chat messages
+        env:
+          EXPORT_SLUG: ${{ inputs.slug }}
+          EXPORT_START_DATE: ${{ inputs.start_date }}
+          EXPORT_END_DATE: ${{ inputs.end_date }}
+          EXPORT_RETRIES: ${{ inputs.retries }}
+          EXPORT_RETRY_DELAY_SECONDS: ${{ inputs.retry_delay_seconds }}
+          EXPORT_DAY_RETRIES: ${{ inputs.day_retries }}
+          EXPORT_TIMEZONE: ${{ inputs.timezone }}
+        run: python scripts/export_messages.py --config config.json --output-dir output
+      - name: Upload transcripts and manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-village-message-export
+          path: output/
+          if-no-files-found: warn
+          retention-days: 30

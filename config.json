@@ -1,0 +1,11 @@
+{
+  "slug": "actual-launch-1",
+  "start_date": "2026-11-09",
+  "end_date": "2026-11-10",
+  "retries": 5,
+  "retry_delay_seconds": 2,
+  "day_retries": 1,
+  "request_gap_seconds": 1.25,
+  "max_pages": 5000,
+  "timezone": "America/Los_Angeles"
+}
