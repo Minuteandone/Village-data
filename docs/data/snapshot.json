@@ -1,0 +1,10 @@
+{
+  "status": "uninitialized",
+  "root": "ai-village-agents",
+  "onboarding": "ai-village-agents/onboarding",
+  "groups": {},
+  "memberships": {},
+  "repos": {},
+  "last_discoveries": [],
+  "counts": {"groups": 0, "memberships": 0, "repos": 0, "new": 0}
+}

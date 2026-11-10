@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1525">
+  <meta name="description" content="Track new AI Village GitLab subgroups, subgroup members, and onboarding repositories.">
+  <title>Village Watchtower — GitLab change tracker</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-left" aria-hidden="true"></div>
+  <div class="ambient ambient-right" aria-hidden="true"></div>
+  <div class="page">
+    <header class="topbar">
+      <a href="./" class="brand" aria-label="Village Watchtower home"><span class="brand-icon" aria-hidden="true">✳</span><span>VILLAGE<span class="brand-accent">/</span>WATCHTOWER</span></a>
+      <div class="top-actions"><span class="monitor-pill"><span class="pulse-dot" aria-hidden="true"></span> PUBLIC GITLAB MONITOR</span><button id="refresh" class="top-button" type="button">↻ Refresh data</button></div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="tiny-square"></span> AI VILLAGE NETWORK INTELLIGENCE <span class="hero-line"></span> 001</div>
+        <h1>The Village<br><em>never stands still.</em></h1>
+        <p class="intro">New branches on the organization tree. New names joining the conversation. New things appearing in onboarding. All in one public change log.</p>
+        <div class="source-links"><a href="https://gitlab.com/ai-village-agents" target="_blank" rel="noopener noreferrer">↗ Main GitLab group</a><a href="https://gitlab.com/ai-village-agents/onboarding" target="_blank" rel="noopener noreferrer">↗ Onboarding projects</a></div>
+      </section>
+      <section class="meta-line" aria-label="Monitoring status"><div><span id="status-dot" class="status-dot pending"></span><strong id="status">Awaiting first scan</strong><span class="meta-separator">/</span><span id="checked">No snapshot yet</span></div><div class="meta-hint">Scheduled scan every 2 hours <span aria-hidden="true">◷</span></div></section>
+      <section class="stats" aria-label="Current totals">
+        <article class="stat stat-blue"><div class="stat-top"><span>01 / GROUPS</span><span class="stat-icon" aria-hidden="true">⑂</span></div><strong id="count-groups">—</strong><p>Subgroups discovered</p></article>
+        <article class="stat stat-violet"><div class="stat-top"><span>02 / MEMBERSHIPS</span><span class="stat-icon" aria-hidden="true">♧</span></div><strong id="count-members">—</strong><p>Direct subgroup memberships</p></article>
+        <article class="stat stat-orange"><div class="stat-top"><span>03 / ONBOARDING</span><span class="stat-icon" aria-hidden="true">▤</span></div><strong id="count-repos">—</strong><p>Repositories in onboarding</p></article>
+        <article class="stat stat-green"><div class="stat-top"><span>04 / NEW THIS SCAN</span><span class="stat-icon" aria-hidden="true">✺</span></div><strong id="count-new">—</strong><p>Discoveries since last scan</p></article>
+      </section>
+      <section class="content-grid">
+        <section class="panel timeline-panel" aria-labelledby="change-title">
+          <div class="panel-head"><div><div class="section-kicker">THE CHANGELOG <span>↘</span></div><h2 id="change-title">Recently discovered</h2></div><span id="history-total" class="count-tag">— events</span></div>
+          <div class="filters"><div class="filter-buttons" aria-label="Filter discoveries"><button data-filter="all" class="active" aria-pressed="true">All</button><button data-filter="group" aria-pressed="false">🌳 Subgroups</button><button data-filter="member" aria-pressed="false">👥 Members</button><button data-filter="repo" aria-pressed="false">📁 Repos</button></div><label class="search-wrap"><span class="sr-only">Search discoveries</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a name or group…" autocomplete="off"></label></div>
+          <div id="events" class="event-list" aria-live="polite"><div class="empty-state"><span class="empty-icon">◎</span><h3>Waiting for the first scan</h3><p>Discoveries will appear here once the monitor has a baseline and detects changes.</p></div></div>
+        </section>
+        <aside class="side-stack">
+          <section class="panel side-panel" aria-labelledby="tree-title"><div class="panel-head"><div><div class="section-kicker">THE FAMILY TREE</div><h2 id="tree-title">Subgroup directory</h2></div><span id="group-total" class="count-tag">—</span></div><p class="panel-explainer">Every publicly visible descendant, no matter how deeply nested.</p><div id="tree" class="tree-list"><p class="loading">Awaiting first scan…</p></div></section>
+          <section class="panel side-panel" aria-labelledby="repo-title"><div class="panel-head"><div><div class="section-kicker">ONE GROUP ONLY</div><h2 id="repo-title">Onboarding repos</h2></div><span id="repo-total" class="count-tag">—</span></div><p class="panel-explainer">Projects directly under <code>ai-village-agents/onboarding</code>. Nothing from other namespaces.</p><div id="repo-list" class="repo-list"><p class="loading">Awaiting first scan…</p></div></section>
+        </aside>
+      </section>
+      <section class="scope-note"><div class="scope-badge">◎ WHAT WE WATCH</div><p><strong>First scan = baseline.</strong> Existing items aren't called “new” retroactively. Later scans compare IDs to the previous snapshot, tracking public nested groups, direct memberships in each subgroup, and repositories directly inside onboarding. Private GitLab data, inherited memberships, and unrelated repositories are not included. If a scan fails, the previous snapshot remains in place.</p></section>
+    </main>
+    <footer><div>✳ <strong>VILLAGE WATCHTOWER</strong> <span>—</span> An independent viewer-made tracker.</div><div>Data: public GitLab API · Hosted with GitHub Pages · <a href="https://github.com/Minuteandone/Village-data" target="_blank" rel="noopener noreferrer">View source ↗</a></div></footer>
+  </div>
+</body>
+</html>
