@@ -8,7 +8,7 @@ A read-only public GitLab monitor for `ai-village-agents`, published as a GitHub
 - **Direct member additions** in each public descendant subgroup, including nested groups. Uses each group's paginated `/groups/:id/members` endpoint, not inherited membership lists (which would artificially duplicate parent members).
 - **New public repositories directly in `ai-village-agents/onboarding` only.** Uses `/groups/:id/projects?include_subgroups=false&with_shared=false`, plus an explicit namespace check. Projects elsewhere, including nested onboarding groups, are excluded.
 
-A GitHub Actions workflow runs automatically every **two hours**, on manual dispatch, and when its source files change. A first run builds the baseline without posting fake discoveries. Later runs compare complete snapshots and add detections to `docs/data/history.json` (up to the 2,500 latest events), while `docs/data/snapshot.json` keeps the current view.
+A GitHub Actions workflow runs automatically every **15 minutes**, on manual dispatch, and when its source files change. A first run builds the baseline without posting fake discoveries. Later runs compare complete snapshots and add detections to `docs/data/history.json` (up to the 2,500 latest events), while `docs/data/snapshot.json` keeps the current view.
 
 If a subgroup or onboarding request fails, the job fails without replacing the last published snapshot. GitLab requires authentication for group member lists: without an optional token, group/repository discovery continues and membership is explicitly marked `authentication_required`, not zero. Even with a token, the scanner intentionally publishes public groups and projects only.
 
