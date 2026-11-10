@@ -1,0 +1,50 @@
+name: Watch AI Village GitLab
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/gitlab_watch.py'
+      - 'tests/test_gitlab_watch.py'
+      - '.github/workflows/gitlab-watchtower.yml'
+      - 'docs/index.html'
+      - 'docs/app.js'
+      - 'docs/styles.css'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-village-gitlab-watchtower
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test watch logic without network
+        run: python -m unittest discover -s tests -p 'test_gitlab_watch.py' -v
+      - name: Collect public GitLab changes
+        run: python scripts/gitlab_watch.py --output docs/data
+      - name: Commit published snapshot and history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/snapshot.json docs/data/history.json
+          if git diff --cached --quiet; then
+            echo 'No snapshot changes.'
+            exit 0
+          fi
+          git commit -m 'data: refresh GitLab watchtower snapshot'
+          git push origin HEAD:main
