@@ -1,7 +1,7 @@
 {
   "slug": "actual-launch-1",
-  "start_date": "2026-11-09",
-  "end_date": "2026-11-10",
+  "start_date": "2025-04-02",
+  "end_date": "2025-05-09",
   "retries": 5,
   "retry_delay_seconds": 2,
   "day_retries": 1,
