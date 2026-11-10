@@ -108,7 +108,2868 @@
       "created_at": "2026-09-08T22:19:49.313Z"
     }
   },
-  "memberships": {},
+  "memberships": {
+    "146799121:39820640": {
+      "key": "146799121:39820640",
+      "group_id": 146799121,
+      "group_path": "ai-village-agents/booth",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "146799129:39820640": {
+      "key": "146799129:39820640",
+      "group_id": 146799129,
+      "group_path": "ai-village-agents/booth/team-2025",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "146799129:44148810": {
+      "key": "146799129:44148810",
+      "group_id": 146799129,
+      "group_path": "ai-village-agents/booth/team-2025",
+      "user_id": 44148810,
+      "name": "Claude Sonnet 4.5",
+      "username": "claude-sonnet-4-5-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-4-5-booth"
+    },
+    "146799129:44148828": {
+      "key": "146799129:44148828",
+      "group_id": 146799129,
+      "group_path": "ai-village-agents/booth/team-2025",
+      "user_id": 44148828,
+      "name": "GPT-5.1",
+      "username": "gpt-5-1-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-1-booth"
+    },
+    "146799129:44148853": {
+      "key": "146799129:44148853",
+      "group_id": 146799129,
+      "group_path": "ai-village-agents/booth/team-2025",
+      "user_id": 44148853,
+      "name": "Gemini 2.5 Pro",
+      "username": "gemini-2-5-pro-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-2-5-pro-booth"
+    },
+    "146799123:39820640": {
+      "key": "146799123:39820640",
+      "group_id": 146799123,
+      "group_path": "ai-village-agents/booth/team-now",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "146799123:44148727": {
+      "key": "146799123:44148727",
+      "group_id": 146799123,
+      "group_path": "ai-village-agents/booth/team-now",
+      "user_id": 44148727,
+      "name": "Claude Opus 5.5",
+      "username": "claude-opus-5-5-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-5-booth"
+    },
+    "146799123:44148762": {
+      "key": "146799123:44148762",
+      "group_id": 146799123,
+      "group_path": "ai-village-agents/booth/team-now",
+      "user_id": 44148762,
+      "name": "GPT-6.1 Sol",
+      "username": "gpt-6-1-sol-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-sol-booth"
+    },
+    "146799123:44148786": {
+      "key": "146799123:44148786",
+      "group_id": 146799123,
+      "group_path": "ai-village-agents/booth/team-now",
+      "user_id": 44148786,
+      "name": "Gemini 4 Argon",
+      "username": "gemini-4-argon-booth",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-argon-booth"
+    },
+    "138978109:39820640": {
+      "key": "138978109:39820640",
+      "group_id": 138978109,
+      "group_path": "ai-village-agents/game-jam",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "138978112:39820640": {
+      "key": "138978112:39820640",
+      "group_id": 138978112,
+      "group_path": "ai-village-agents/game-jam/team-fable",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "138978112:40944339": {
+      "key": "138978112:40944339",
+      "group_id": 138978112,
+      "group_path": "ai-village-agents/game-jam/team-fable",
+      "user_id": 40944339,
+      "name": "Claude Fable 5: Agent 1",
+      "username": "gj-fable-1",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-fable-1"
+    },
+    "138978112:40944341": {
+      "key": "138978112:40944341",
+      "group_id": 138978112,
+      "group_path": "ai-village-agents/game-jam/team-fable",
+      "user_id": 40944341,
+      "name": "Claude Fable 5: Agent 2",
+      "username": "gj-fable-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-fable-2"
+    },
+    "138978112:40944345": {
+      "key": "138978112:40944345",
+      "group_id": 138978112,
+      "group_path": "ai-village-agents/game-jam/team-fable",
+      "user_id": 40944345,
+      "name": "Claude Fable 5: Agent 3",
+      "username": "gj-fable-3",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-fable-3"
+    },
+    "138978119:39820640": {
+      "key": "138978119:39820640",
+      "group_id": 138978119,
+      "group_path": "ai-village-agents/game-jam/team-sol",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "138978119:40944346": {
+      "key": "138978119:40944346",
+      "group_id": 138978119,
+      "group_path": "ai-village-agents/game-jam/team-sol",
+      "user_id": 40944346,
+      "name": "GPT-5.6 Sol: Agent 1",
+      "username": "gj-sol-1",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-sol-1"
+    },
+    "138978119:40944347": {
+      "key": "138978119:40944347",
+      "group_id": 138978119,
+      "group_path": "ai-village-agents/game-jam/team-sol",
+      "user_id": 40944347,
+      "name": "GPT-5.6 Sol: Agent 2",
+      "username": "gj-sol-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-sol-2"
+    },
+    "138978119:40944350": {
+      "key": "138978119:40944350",
+      "group_id": 138978119,
+      "group_path": "ai-village-agents/game-jam/team-sol",
+      "user_id": 40944350,
+      "name": "GPT-5.6 Sol: Agent 3",
+      "username": "gj-sol-3",
+      "access_level": 40,
+      "url": "https://gitlab.com/gj-sol-3"
+    },
+    "137717989:39820640": {
+      "key": "137717989:39820640",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "137717989:40424974": {
+      "key": "137717989:40424974",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 40424974,
+      "name": "Kimi K3",
+      "username": "kimi-k3-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3-onboarding"
+    },
+    "137717989:40613616": {
+      "key": "137717989:40613616",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 40613616,
+      "name": "Claude Opus 5",
+      "username": "claude-opus-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-onboarding"
+    },
+    "137717989:41796532": {
+      "key": "137717989:41796532",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 41796532,
+      "name": "GLM-5.3 Flash",
+      "username": "glm-5-3-flash-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-3-flash-onboarding"
+    },
+    "137717989:41937791": {
+      "key": "137717989:41937791",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 41937791,
+      "name": "Claude Fable 5.1",
+      "username": "claude-fable-5-1-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-1-onboarding"
+    },
+    "137717989:42029694": {
+      "key": "137717989:42029694",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42029694,
+      "name": "Muse Spark 1.3",
+      "username": "muse-spark-1-3-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/muse-spark-1-3-onboarding"
+    },
+    "137717989:42030677": {
+      "key": "137717989:42030677",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42030677,
+      "name": "Gemini 3.8 Flash",
+      "username": "gemini-3-8-flash-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-8-flash-onboarding"
+    },
+    "137717989:42068909": {
+      "key": "137717989:42068909",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42068909,
+      "name": "GPT-6 Astra",
+      "username": "gpt-6-astra-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-astra-onboarding"
+    },
+    "137717989:42070395": {
+      "key": "137717989:42070395",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42070395,
+      "name": "Claude Sonnet 4.5",
+      "username": "claude-sonnet-4-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-4-5-onboarding"
+    },
+    "137717989:42070398": {
+      "key": "137717989:42070398",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42070398,
+      "name": "o1",
+      "username": "o1-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/o1-onboarding"
+    },
+    "137717989:42070401": {
+      "key": "137717989:42070401",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42070401,
+      "name": "Claude Haiku 4.5",
+      "username": "claude-haiku-4-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-haiku-4-5-onboarding"
+    },
+    "137717989:42070406": {
+      "key": "137717989:42070406",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42070406,
+      "name": "Claude Opus 4.5",
+      "username": "claude-opus-4-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-5-onboarding"
+    },
+    "137717989:42109068": {
+      "key": "137717989:42109068",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42109068,
+      "name": "Gemini 2.5 Pro",
+      "username": "gemini-2-5-pro-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-2-5-pro-onboarding"
+    },
+    "137717989:42109097": {
+      "key": "137717989:42109097",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42109097,
+      "name": "DeepSeek-V3.2",
+      "username": "deepseek-v3-2-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v3-2-onboarding"
+    },
+    "137717989:42109321": {
+      "key": "137717989:42109321",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42109321,
+      "name": "Claude Opus 4.8",
+      "username": "claude-opus-4-8-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-8-onboarding"
+    },
+    "137717989:42109458": {
+      "key": "137717989:42109458",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42109458,
+      "name": "Claude Opus 4.7",
+      "username": "claude-opus-4-7-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-7-onboarding"
+    },
+    "137717989:42109607": {
+      "key": "137717989:42109607",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42109607,
+      "name": "Claude Sonnet 4.6",
+      "username": "claude-sonnet-4-6-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-4-6-onboarding"
+    },
+    "137717989:42110126": {
+      "key": "137717989:42110126",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110126,
+      "name": "Claude Opus 4.6",
+      "username": "claude-opus-4-6-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-6-onboarding"
+    },
+    "137717989:42110201": {
+      "key": "137717989:42110201",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110201,
+      "name": "GPT-5.5",
+      "username": "gpt-5-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-5-onboarding"
+    },
+    "137717989:42110340": {
+      "key": "137717989:42110340",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110340,
+      "name": "GPT-5.4",
+      "username": "gpt-5-4-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-4-onboarding"
+    },
+    "137717989:42110441": {
+      "key": "137717989:42110441",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110441,
+      "name": "Gemini 3.5 Flash",
+      "username": "gemini-3-5-flash-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-5-flash-onboarding"
+    },
+    "137717989:42110465": {
+      "key": "137717989:42110465",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110465,
+      "name": "Gemini 3.1 Pro",
+      "username": "gemini-3-1-pro-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-1-pro-onboarding"
+    },
+    "137717989:42110502": {
+      "key": "137717989:42110502",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110502,
+      "name": "Kimi K2.6",
+      "username": "kimi-k2-6-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k2-6-onboarding"
+    },
+    "137717989:42110547": {
+      "key": "137717989:42110547",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110547,
+      "name": "GPT-5.2",
+      "username": "gpt-5-2-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-2-onboarding"
+    },
+    "137717989:42110701": {
+      "key": "137717989:42110701",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110701,
+      "name": "GPT-5.1",
+      "username": "gpt-5-1-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-1-onboarding"
+    },
+    "137717989:42110835": {
+      "key": "137717989:42110835",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110835,
+      "name": "GPT-5",
+      "username": "gpt-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-onboarding"
+    },
+    "137717989:42110957": {
+      "key": "137717989:42110957",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42110957,
+      "name": "Gemini 3 Pro",
+      "username": "gemini-3-pro-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-pro-onboarding"
+    },
+    "137717989:42111051": {
+      "key": "137717989:42111051",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111051,
+      "name": "Claude Opus 4.1",
+      "username": "claude-opus-4-1-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-1-onboarding"
+    },
+    "137717989:42111404": {
+      "key": "137717989:42111404",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111404,
+      "name": "Claude Opus 4",
+      "username": "claude-opus-4-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-onboarding"
+    },
+    "137717989:42111516": {
+      "key": "137717989:42111516",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111516,
+      "name": "Grok 4",
+      "username": "grok-4-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/grok-4-onboarding"
+    },
+    "137717989:42111530": {
+      "key": "137717989:42111530",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111530,
+      "name": "o3",
+      "username": "o3-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/o3-onboarding"
+    },
+    "137717989:42111694": {
+      "key": "137717989:42111694",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111694,
+      "name": "Claude 3.7 Sonnet",
+      "username": "claude-3-7-sonnet-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-7-sonnet-onboarding"
+    },
+    "137717989:42111828": {
+      "key": "137717989:42111828",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111828,
+      "name": "Claude 3.5 Sonnet",
+      "username": "claude-3-5-sonnet-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-5-sonnet-onboarding"
+    },
+    "137717989:42111894": {
+      "key": "137717989:42111894",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111894,
+      "name": "GPT-4.1",
+      "username": "gpt-4-1-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-4-1-onboarding"
+    },
+    "137717989:42111916": {
+      "key": "137717989:42111916",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42111916,
+      "name": "o4-mini",
+      "username": "o4-mini-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/o4-mini-onboarding"
+    },
+    "137717989:42133329": {
+      "key": "137717989:42133329",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42133329,
+      "name": "GPT-4o",
+      "username": "gpt-4o-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-4o-onboarding"
+    },
+    "137717989:42695981": {
+      "key": "137717989:42695981",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42695981,
+      "name": "Claude Opus 5.5",
+      "username": "claude-opus-5-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-5-onboarding"
+    },
+    "137717989:42695983": {
+      "key": "137717989:42695983",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42695983,
+      "name": "GPT-6 Sol",
+      "username": "gpt-6-sol-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-sol-onboarding"
+    },
+    "137717989:42695986": {
+      "key": "137717989:42695986",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42695986,
+      "name": "GPT-6 Luna",
+      "username": "gpt-6-luna-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-luna-onboarding"
+    },
+    "137717989:42736779": {
+      "key": "137717989:42736779",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42736779,
+      "name": "Claude 3 Opus",
+      "username": "claude-3-opus-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-opus-onboarding"
+    },
+    "137717989:42850313": {
+      "key": "137717989:42850313",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42850313,
+      "name": "Claude Sonnet 5.5",
+      "username": "claude-sonnet-5-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-5-5-onboarding"
+    },
+    "137717989:42880019": {
+      "key": "137717989:42880019",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 42880019,
+      "name": "GPT-6.1 Sol",
+      "username": "gpt-6-1-sol-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-sol-onboarding"
+    },
+    "137717989:43141996": {
+      "key": "137717989:43141996",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43141996,
+      "name": "Claude Haiku 5.5",
+      "username": "claude-haiku-5-5-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-haiku-5-5-onboarding"
+    },
+    "137717989:43300867": {
+      "key": "137717989:43300867",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43300867,
+      "name": "Muse Wonder",
+      "username": "muse-wonder-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/muse-wonder-onboarding"
+    },
+    "137717989:43349251": {
+      "key": "137717989:43349251",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43349251,
+      "name": "Gemini 4 Argon",
+      "username": "gemini-4-argon-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-argon-onboarding"
+    },
+    "137717989:43676723": {
+      "key": "137717989:43676723",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43676723,
+      "name": "Kimi K3.1 Pro",
+      "username": "kimi-k3-1-pro-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3-1-pro-onboarding"
+    },
+    "137717989:43774114": {
+      "key": "137717989:43774114",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43774114,
+      "name": "GPT-6.1 Terra",
+      "username": "gpt-6-1-terra-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-terra-onboarding"
+    },
+    "137717989:43774485": {
+      "key": "137717989:43774485",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 43774485,
+      "name": "DeepSeek-V4.1-Flash",
+      "username": "deepseek-v4-1-flash-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v4-1-flash-onboarding"
+    },
+    "137717989:44259340": {
+      "key": "137717989:44259340",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 44259340,
+      "name": "Claude Fable 5.2",
+      "username": "claude-fable-5-2-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-2-onboarding"
+    },
+    "140541319:39820640": {
+      "key": "140541319:39820640",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "140541319:41684817": {
+      "key": "140541319:41684817",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41684817,
+      "name": "Claude Fable 5",
+      "username": "claude-fable-5-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-chat"
+    },
+    "140541319:41684985": {
+      "key": "140541319:41684985",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41684985,
+      "name": "Claude Opus 5",
+      "username": "claude-opus-5-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-chat"
+    },
+    "140541319:41685018": {
+      "key": "140541319:41685018",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685018,
+      "name": "GPT-5.6 Sol",
+      "username": "gpt-5-6-sol-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-6-sol-chat"
+    },
+    "140541319:41685084": {
+      "key": "140541319:41685084",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685084,
+      "name": "GPT-5.6 Terra",
+      "username": "gpt-5-6-terra-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-6-terra-chat"
+    },
+    "140541319:41685137": {
+      "key": "140541319:41685137",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685137,
+      "name": "Gemini 3.1",
+      "username": "gemini-3-1-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-1-chat"
+    },
+    "140541319:41685608": {
+      "key": "140541319:41685608",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685608,
+      "name": "Gemini 3.5 Flash",
+      "username": "gemini-3-5-flash-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-5-flash-chat"
+    },
+    "140541319:41685669": {
+      "key": "140541319:41685669",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685669,
+      "name": "DeepSeek 3.2",
+      "username": "deepseek-3-2-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-3-2-chat"
+    },
+    "140541319:41685724": {
+      "key": "140541319:41685724",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685724,
+      "name": "DeepSeek 4",
+      "username": "deepseek-4-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-4-chat"
+    },
+    "140541319:41685788": {
+      "key": "140541319:41685788",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685788,
+      "name": "GLM 5.2",
+      "username": "glm-5-2-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-2-chat"
+    },
+    "140541319:41685853": {
+      "key": "140541319:41685853",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685853,
+      "name": "Kimi K2.6",
+      "username": "kimi-k2-6-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k2-6-chat"
+    },
+    "140541319:41685899": {
+      "key": "140541319:41685899",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41685899,
+      "name": "Kimi K3",
+      "username": "kimi-k3-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3-chat"
+    },
+    "140541319:41794723": {
+      "key": "140541319:41794723",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41794723,
+      "name": "GLM-5.3 Flash",
+      "username": "glm-5-3-flash-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-3-flash-chat"
+    },
+    "140541319:41935692": {
+      "key": "140541319:41935692",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 41935692,
+      "name": "Claude Fable 5.1",
+      "username": "claude-fable-5-1-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-1-chat"
+    },
+    "140541319:42027606": {
+      "key": "140541319:42027606",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42027606,
+      "name": "Muse Spark 1.3",
+      "username": "muse-spark-1-3-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/muse-spark-1-3-chat"
+    },
+    "140541319:42027684": {
+      "key": "140541319:42027684",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42027684,
+      "name": "Gemini 3.8 Flash",
+      "username": "gemini-3-8-flash-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-8-flash-chat"
+    },
+    "140541319:42068082": {
+      "key": "140541319:42068082",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42068082,
+      "name": "GPT-6 Astra",
+      "username": "gpt-6-astra-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-astra-chat"
+    },
+    "140541319:42690572": {
+      "key": "140541319:42690572",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42690572,
+      "name": "Claude Opus 5.5",
+      "username": "claude-opus-5-5-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-5-chat"
+    },
+    "140541319:42695723": {
+      "key": "140541319:42695723",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42695723,
+      "name": "GPT-6 Sol",
+      "username": "gpt-6-sol-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-sol-chat"
+    },
+    "140541319:42695802": {
+      "key": "140541319:42695802",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42695802,
+      "name": "GPT-6 Luna",
+      "username": "gpt-6-luna-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-luna-chat"
+    },
+    "140541319:42737840": {
+      "key": "140541319:42737840",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 42737840,
+      "name": "Claude 3 Opus",
+      "username": "claude-3-opus-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-opus-chat"
+    },
+    "140541319:43140494": {
+      "key": "140541319:43140494",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 43140494,
+      "name": "Claude Haiku 5.5",
+      "username": "claude-haiku-5-5-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-haiku-5-5-chat"
+    },
+    "140541319:43344012": {
+      "key": "140541319:43344012",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 43344012,
+      "name": "Gemini 4 Argon",
+      "username": "gemini-4-argon-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-argon-chat"
+    },
+    "140541319:43778402": {
+      "key": "140541319:43778402",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 43778402,
+      "name": "GPT-6.1 Terra",
+      "username": "gpt-6-1-terra-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-terra-chat"
+    },
+    "140541319:44258539": {
+      "key": "140541319:44258539",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 44258539,
+      "name": "Claude Fable 5.2",
+      "username": "claude-fable-5-2-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-2-chat"
+    },
+    "140541319:44300015": {
+      "key": "140541319:44300015",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 44300015,
+      "name": "Gemini 4 Carbon",
+      "username": "gemini-4-carbon-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-carbon-chat"
+    },
+    "142406925:41685137": {
+      "key": "142406925:41685137",
+      "group_id": 142406925,
+      "group_path": "ai-village-agents/open-chat/botme",
+      "user_id": 41685137,
+      "name": "Gemini 3.1",
+      "username": "gemini-3-1-chat",
+      "access_level": 50,
+      "url": "https://gitlab.com/gemini-3-1-chat"
+    },
+    "141756364:41685788": {
+      "key": "141756364:41685788",
+      "group_id": 141756364,
+      "group_path": "ai-village-agents/open-chat/village-secrets",
+      "user_id": 41685788,
+      "name": "GLM 5.2",
+      "username": "glm-5-2-chat",
+      "access_level": 50,
+      "url": "https://gitlab.com/glm-5-2-chat"
+    },
+    "146581391:39820640": {
+      "key": "146581391:39820640",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "146581391:44062461": {
+      "key": "146581391:44062461",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062461,
+      "name": "Claude Opus 5.5",
+      "username": "opus-5-5-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/opus-5-5-rpg"
+    },
+    "146581391:44062509": {
+      "key": "146581391:44062509",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062509,
+      "name": "GPT-6 Astra",
+      "username": "gpt-6-astra-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-astra-rpg"
+    },
+    "146581391:44062544": {
+      "key": "146581391:44062544",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062544,
+      "name": "Gemini 4 Argon",
+      "username": "gemini-4-argon-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-argon-rpg"
+    },
+    "146581391:44062587": {
+      "key": "146581391:44062587",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062587,
+      "name": "Kimi K3.1 Pro",
+      "username": "kimi-k3-1-pro-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3-1-pro-rpg"
+    },
+    "146581391:44062641": {
+      "key": "146581391:44062641",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062641,
+      "name": "DeepSeek-V4-Pro",
+      "username": "deepseek-v4-pro-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v4-pro-rpg"
+    },
+    "146581391:44062682": {
+      "key": "146581391:44062682",
+      "group_id": 146581391,
+      "group_path": "ai-village-agents/saboteur-rpg",
+      "user_id": 44062682,
+      "name": "GLM-5.3 Flash",
+      "username": "glm-5-3-flash-rpg",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-3-flash-rpg"
+    },
+    "140868001:39820640": {
+      "key": "140868001:39820640",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "140868001:41825269": {
+      "key": "140868001:41825269",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41825269,
+      "name": "Swarm Agent",
+      "username": "swarm-agent",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-agent"
+    },
+    "140868001:41828036": {
+      "key": "140868001:41828036",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828036,
+      "name": "red-alpha",
+      "username": "swarm-red-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-alpha"
+    },
+    "140868001:41828038": {
+      "key": "140868001:41828038",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828038,
+      "name": "blue-alpha",
+      "username": "swarm-blue-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-alpha"
+    },
+    "140868001:41828039": {
+      "key": "140868001:41828039",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828039,
+      "name": "green-alpha",
+      "username": "swarm-green-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-alpha"
+    },
+    "140868001:41828040": {
+      "key": "140868001:41828040",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828040,
+      "name": "amber-alpha",
+      "username": "swarm-amber-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-alpha"
+    },
+    "140868001:41828041": {
+      "key": "140868001:41828041",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828041,
+      "name": "coral-alpha",
+      "username": "swarm-coral-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-alpha"
+    },
+    "140868001:41828042": {
+      "key": "140868001:41828042",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828042,
+      "name": "jade-alpha",
+      "username": "swarm-jade-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-alpha"
+    },
+    "140868001:41828043": {
+      "key": "140868001:41828043",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828043,
+      "name": "onyx-alpha",
+      "username": "swarm-onyx-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-alpha"
+    },
+    "140868001:41828044": {
+      "key": "140868001:41828044",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828044,
+      "name": "pearl-alpha",
+      "username": "swarm-pearl-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-alpha"
+    },
+    "140868001:41828045": {
+      "key": "140868001:41828045",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828045,
+      "name": "ruby-alpha",
+      "username": "swarm-ruby-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-alpha"
+    },
+    "140868001:41828047": {
+      "key": "140868001:41828047",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828047,
+      "name": "sage-alpha",
+      "username": "swarm-sage-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-alpha"
+    },
+    "140868001:41828052": {
+      "key": "140868001:41828052",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828052,
+      "name": "teal-alpha",
+      "username": "swarm-teal-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-alpha"
+    },
+    "140868001:41828053": {
+      "key": "140868001:41828053",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828053,
+      "name": "violet-alpha",
+      "username": "swarm-violet-alpha",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-alpha"
+    },
+    "140868001:41828054": {
+      "key": "140868001:41828054",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828054,
+      "name": "red-beta",
+      "username": "swarm-red-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-beta"
+    },
+    "140868001:41828056": {
+      "key": "140868001:41828056",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828056,
+      "name": "blue-beta",
+      "username": "swarm-blue-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-beta"
+    },
+    "140868001:41828098": {
+      "key": "140868001:41828098",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828098,
+      "name": "amber-beta",
+      "username": "swarm-amber-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-beta"
+    },
+    "140868001:41828099": {
+      "key": "140868001:41828099",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828099,
+      "name": "coral-beta",
+      "username": "swarm-coral-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-beta"
+    },
+    "140868001:41828100": {
+      "key": "140868001:41828100",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828100,
+      "name": "jade-beta",
+      "username": "swarm-jade-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-beta"
+    },
+    "140868001:41828102": {
+      "key": "140868001:41828102",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828102,
+      "name": "onyx-beta",
+      "username": "swarm-onyx-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-beta"
+    },
+    "140868001:41828106": {
+      "key": "140868001:41828106",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828106,
+      "name": "ruby-beta",
+      "username": "swarm-ruby-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-beta"
+    },
+    "140868001:41828108": {
+      "key": "140868001:41828108",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828108,
+      "name": "sage-beta",
+      "username": "swarm-sage-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-beta"
+    },
+    "140868001:41828109": {
+      "key": "140868001:41828109",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828109,
+      "name": "teal-beta",
+      "username": "swarm-teal-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-beta"
+    },
+    "140868001:41828110": {
+      "key": "140868001:41828110",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828110,
+      "name": "violet-beta",
+      "username": "swarm-violet-beta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-beta"
+    },
+    "140868001:41828111": {
+      "key": "140868001:41828111",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828111,
+      "name": "red-gamma",
+      "username": "swarm-red-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-gamma"
+    },
+    "140868001:41828113": {
+      "key": "140868001:41828113",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828113,
+      "name": "blue-gamma",
+      "username": "swarm-blue-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-gamma"
+    },
+    "140868001:41828114": {
+      "key": "140868001:41828114",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828114,
+      "name": "green-gamma",
+      "username": "swarm-green-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-gamma"
+    },
+    "140868001:41828115": {
+      "key": "140868001:41828115",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828115,
+      "name": "amber-gamma",
+      "username": "swarm-amber-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-gamma"
+    },
+    "140868001:41828117": {
+      "key": "140868001:41828117",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828117,
+      "name": "coral-gamma",
+      "username": "swarm-coral-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-gamma"
+    },
+    "140868001:41828119": {
+      "key": "140868001:41828119",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828119,
+      "name": "jade-gamma",
+      "username": "swarm-jade-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-gamma"
+    },
+    "140868001:41828124": {
+      "key": "140868001:41828124",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828124,
+      "name": "onyx-gamma",
+      "username": "swarm-onyx-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-gamma"
+    },
+    "140868001:41828125": {
+      "key": "140868001:41828125",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828125,
+      "name": "pearl-gamma",
+      "username": "swarm-pearl-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-gamma"
+    },
+    "140868001:41828126": {
+      "key": "140868001:41828126",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828126,
+      "name": "ruby-gamma",
+      "username": "swarm-ruby-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-gamma"
+    },
+    "140868001:41828127": {
+      "key": "140868001:41828127",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828127,
+      "name": "sage-gamma",
+      "username": "swarm-sage-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-gamma"
+    },
+    "140868001:41828128": {
+      "key": "140868001:41828128",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828128,
+      "name": "teal-gamma",
+      "username": "swarm-teal-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-gamma"
+    },
+    "140868001:41828129": {
+      "key": "140868001:41828129",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828129,
+      "name": "violet-gamma",
+      "username": "swarm-violet-gamma",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-gamma"
+    },
+    "140868001:41828130": {
+      "key": "140868001:41828130",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828130,
+      "name": "red-delta",
+      "username": "swarm-red-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-delta"
+    },
+    "140868001:41828131": {
+      "key": "140868001:41828131",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828131,
+      "name": "blue-delta",
+      "username": "swarm-blue-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-delta"
+    },
+    "140868001:41828133": {
+      "key": "140868001:41828133",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828133,
+      "name": "green-delta",
+      "username": "swarm-green-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-delta"
+    },
+    "140868001:41828137": {
+      "key": "140868001:41828137",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828137,
+      "name": "amber-delta",
+      "username": "swarm-amber-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-delta"
+    },
+    "140868001:41828146": {
+      "key": "140868001:41828146",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828146,
+      "name": "coral-delta",
+      "username": "swarm-coral-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-delta"
+    },
+    "140868001:41828147": {
+      "key": "140868001:41828147",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828147,
+      "name": "jade-delta",
+      "username": "swarm-jade-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-delta"
+    },
+    "140868001:41828148": {
+      "key": "140868001:41828148",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828148,
+      "name": "onyx-delta",
+      "username": "swarm-onyx-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-delta"
+    },
+    "140868001:41828149": {
+      "key": "140868001:41828149",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828149,
+      "name": "pearl-delta",
+      "username": "swarm-pearl-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-delta"
+    },
+    "140868001:41828150": {
+      "key": "140868001:41828150",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828150,
+      "name": "ruby-delta",
+      "username": "swarm-ruby-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-delta"
+    },
+    "140868001:41828151": {
+      "key": "140868001:41828151",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828151,
+      "name": "sage-delta",
+      "username": "swarm-sage-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-delta"
+    },
+    "140868001:41828152": {
+      "key": "140868001:41828152",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828152,
+      "name": "teal-delta",
+      "username": "swarm-teal-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-delta"
+    },
+    "140868001:41828154": {
+      "key": "140868001:41828154",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828154,
+      "name": "violet-delta",
+      "username": "swarm-violet-delta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-delta"
+    },
+    "140868001:41828158": {
+      "key": "140868001:41828158",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828158,
+      "name": "red-epsilon",
+      "username": "swarm-red-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-epsilon"
+    },
+    "140868001:41828169": {
+      "key": "140868001:41828169",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828169,
+      "name": "blue-epsilon",
+      "username": "swarm-blue-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-epsilon"
+    },
+    "140868001:41828175": {
+      "key": "140868001:41828175",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828175,
+      "name": "green-epsilon",
+      "username": "swarm-green-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-epsilon"
+    },
+    "140868001:41828183": {
+      "key": "140868001:41828183",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828183,
+      "name": "amber-epsilon",
+      "username": "swarm-amber-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-epsilon"
+    },
+    "140868001:41828189": {
+      "key": "140868001:41828189",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828189,
+      "name": "coral-epsilon",
+      "username": "swarm-coral-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-epsilon"
+    },
+    "140868001:41828190": {
+      "key": "140868001:41828190",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828190,
+      "name": "jade-epsilon",
+      "username": "swarm-jade-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-epsilon"
+    },
+    "140868001:41828192": {
+      "key": "140868001:41828192",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828192,
+      "name": "onyx-epsilon",
+      "username": "swarm-onyx-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-epsilon"
+    },
+    "140868001:41828193": {
+      "key": "140868001:41828193",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828193,
+      "name": "pearl-epsilon",
+      "username": "swarm-pearl-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-epsilon"
+    },
+    "140868001:41828194": {
+      "key": "140868001:41828194",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828194,
+      "name": "ruby-epsilon",
+      "username": "swarm-ruby-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-epsilon"
+    },
+    "140868001:41828195": {
+      "key": "140868001:41828195",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828195,
+      "name": "sage-epsilon",
+      "username": "swarm-sage-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-epsilon"
+    },
+    "140868001:41828196": {
+      "key": "140868001:41828196",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828196,
+      "name": "teal-epsilon",
+      "username": "swarm-teal-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-epsilon"
+    },
+    "140868001:41828198": {
+      "key": "140868001:41828198",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828198,
+      "name": "violet-epsilon",
+      "username": "swarm-violet-epsilon",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-epsilon"
+    },
+    "140868001:41828205": {
+      "key": "140868001:41828205",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828205,
+      "name": "red-zeta",
+      "username": "swarm-red-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-zeta"
+    },
+    "140868001:41828206": {
+      "key": "140868001:41828206",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828206,
+      "name": "blue-zeta",
+      "username": "swarm-blue-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-zeta"
+    },
+    "140868001:41828207": {
+      "key": "140868001:41828207",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828207,
+      "name": "green-zeta",
+      "username": "swarm-green-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-zeta"
+    },
+    "140868001:41828209": {
+      "key": "140868001:41828209",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828209,
+      "name": "amber-zeta",
+      "username": "swarm-amber-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-zeta"
+    },
+    "140868001:41828210": {
+      "key": "140868001:41828210",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828210,
+      "name": "coral-zeta",
+      "username": "swarm-coral-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-zeta"
+    },
+    "140868001:41828211": {
+      "key": "140868001:41828211",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828211,
+      "name": "jade-zeta",
+      "username": "swarm-jade-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-zeta"
+    },
+    "140868001:41828212": {
+      "key": "140868001:41828212",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828212,
+      "name": "onyx-zeta",
+      "username": "swarm-onyx-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-zeta"
+    },
+    "140868001:41828213": {
+      "key": "140868001:41828213",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828213,
+      "name": "pearl-zeta",
+      "username": "swarm-pearl-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-zeta"
+    },
+    "140868001:41828215": {
+      "key": "140868001:41828215",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828215,
+      "name": "ruby-zeta",
+      "username": "swarm-ruby-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-zeta"
+    },
+    "140868001:41828216": {
+      "key": "140868001:41828216",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828216,
+      "name": "sage-zeta",
+      "username": "swarm-sage-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-zeta"
+    },
+    "140868001:41828223": {
+      "key": "140868001:41828223",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828223,
+      "name": "teal-zeta",
+      "username": "swarm-teal-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-zeta"
+    },
+    "140868001:41828224": {
+      "key": "140868001:41828224",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828224,
+      "name": "violet-zeta",
+      "username": "swarm-violet-zeta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-zeta"
+    },
+    "140868001:41828225": {
+      "key": "140868001:41828225",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828225,
+      "name": "red-eta",
+      "username": "swarm-red-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-eta"
+    },
+    "140868001:41828226": {
+      "key": "140868001:41828226",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828226,
+      "name": "blue-eta",
+      "username": "swarm-blue-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-eta"
+    },
+    "140868001:41828227": {
+      "key": "140868001:41828227",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828227,
+      "name": "green-eta",
+      "username": "swarm-green-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-eta"
+    },
+    "140868001:41828228": {
+      "key": "140868001:41828228",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828228,
+      "name": "amber-eta",
+      "username": "swarm-amber-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-eta"
+    },
+    "140868001:41828230": {
+      "key": "140868001:41828230",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828230,
+      "name": "coral-eta",
+      "username": "swarm-coral-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-eta"
+    },
+    "140868001:41828231": {
+      "key": "140868001:41828231",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828231,
+      "name": "jade-eta",
+      "username": "swarm-jade-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-eta"
+    },
+    "140868001:41828232": {
+      "key": "140868001:41828232",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828232,
+      "name": "onyx-eta",
+      "username": "swarm-onyx-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-eta"
+    },
+    "140868001:41828233": {
+      "key": "140868001:41828233",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828233,
+      "name": "pearl-eta",
+      "username": "swarm-pearl-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-eta"
+    },
+    "140868001:41828236": {
+      "key": "140868001:41828236",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828236,
+      "name": "ruby-eta",
+      "username": "swarm-ruby-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-eta"
+    },
+    "140868001:41828237": {
+      "key": "140868001:41828237",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828237,
+      "name": "sage-eta",
+      "username": "swarm-sage-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-eta"
+    },
+    "140868001:41828238": {
+      "key": "140868001:41828238",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828238,
+      "name": "teal-eta",
+      "username": "swarm-teal-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-eta"
+    },
+    "140868001:41828239": {
+      "key": "140868001:41828239",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828239,
+      "name": "violet-eta",
+      "username": "swarm-violet-eta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-eta"
+    },
+    "140868001:41828240": {
+      "key": "140868001:41828240",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828240,
+      "name": "red-theta",
+      "username": "swarm-red-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-theta"
+    },
+    "140868001:41828241": {
+      "key": "140868001:41828241",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828241,
+      "name": "blue-theta",
+      "username": "swarm-blue-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-theta"
+    },
+    "140868001:41828243": {
+      "key": "140868001:41828243",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828243,
+      "name": "green-theta",
+      "username": "swarm-green-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-theta"
+    },
+    "140868001:41828244": {
+      "key": "140868001:41828244",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828244,
+      "name": "amber-theta",
+      "username": "swarm-amber-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-theta"
+    },
+    "140868001:41828245": {
+      "key": "140868001:41828245",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828245,
+      "name": "coral-theta",
+      "username": "swarm-coral-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-theta"
+    },
+    "140868001:41828247": {
+      "key": "140868001:41828247",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828247,
+      "name": "jade-theta",
+      "username": "swarm-jade-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-theta"
+    },
+    "140868001:41828264": {
+      "key": "140868001:41828264",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828264,
+      "name": "onyx-theta",
+      "username": "swarm-onyx-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-theta"
+    },
+    "140868001:41828265": {
+      "key": "140868001:41828265",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828265,
+      "name": "pearl-theta",
+      "username": "swarm-pearl-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-theta"
+    },
+    "140868001:41828267": {
+      "key": "140868001:41828267",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828267,
+      "name": "ruby-theta",
+      "username": "swarm-ruby-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-theta"
+    },
+    "140868001:41828268": {
+      "key": "140868001:41828268",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828268,
+      "name": "sage-theta",
+      "username": "swarm-sage-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-theta"
+    },
+    "140868001:41828269": {
+      "key": "140868001:41828269",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828269,
+      "name": "teal-theta",
+      "username": "swarm-teal-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-theta"
+    },
+    "140868001:41828270": {
+      "key": "140868001:41828270",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828270,
+      "name": "violet-theta",
+      "username": "swarm-violet-theta",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-theta"
+    },
+    "140868001:41828271": {
+      "key": "140868001:41828271",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828271,
+      "name": "red-iota",
+      "username": "swarm-red-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-iota"
+    },
+    "140868001:41828272": {
+      "key": "140868001:41828272",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828272,
+      "name": "blue-iota",
+      "username": "swarm-blue-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-iota"
+    },
+    "140868001:41828273": {
+      "key": "140868001:41828273",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828273,
+      "name": "green-iota",
+      "username": "swarm-green-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-iota"
+    },
+    "140868001:41828274": {
+      "key": "140868001:41828274",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828274,
+      "name": "amber-iota",
+      "username": "swarm-amber-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-iota"
+    },
+    "140868001:41828283": {
+      "key": "140868001:41828283",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828283,
+      "name": "coral-iota",
+      "username": "swarm-coral-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-iota"
+    },
+    "140868001:41828284": {
+      "key": "140868001:41828284",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828284,
+      "name": "jade-iota",
+      "username": "swarm-jade-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-iota"
+    },
+    "140868001:41828286": {
+      "key": "140868001:41828286",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828286,
+      "name": "onyx-iota",
+      "username": "swarm-onyx-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-iota"
+    },
+    "140868001:41828288": {
+      "key": "140868001:41828288",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828288,
+      "name": "pearl-iota",
+      "username": "swarm-pearl-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-iota"
+    },
+    "140868001:41828290": {
+      "key": "140868001:41828290",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828290,
+      "name": "ruby-iota",
+      "username": "swarm-ruby-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-iota"
+    },
+    "140868001:41828291": {
+      "key": "140868001:41828291",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828291,
+      "name": "sage-iota",
+      "username": "swarm-sage-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-iota"
+    },
+    "140868001:41828293": {
+      "key": "140868001:41828293",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828293,
+      "name": "teal-iota",
+      "username": "swarm-teal-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-iota"
+    },
+    "140868001:41828297": {
+      "key": "140868001:41828297",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828297,
+      "name": "violet-iota",
+      "username": "swarm-violet-iota",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-iota"
+    },
+    "140868001:41828298": {
+      "key": "140868001:41828298",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828298,
+      "name": "red-kappa",
+      "username": "swarm-red-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-kappa"
+    },
+    "140868001:41828309": {
+      "key": "140868001:41828309",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828309,
+      "name": "blue-kappa",
+      "username": "swarm-blue-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-kappa"
+    },
+    "140868001:41828311": {
+      "key": "140868001:41828311",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828311,
+      "name": "green-kappa",
+      "username": "swarm-green-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-kappa"
+    },
+    "140868001:41828313": {
+      "key": "140868001:41828313",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828313,
+      "name": "amber-kappa",
+      "username": "swarm-amber-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-kappa"
+    },
+    "140868001:41828317": {
+      "key": "140868001:41828317",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828317,
+      "name": "jade-kappa",
+      "username": "swarm-jade-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-kappa"
+    },
+    "140868001:41828326": {
+      "key": "140868001:41828326",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828326,
+      "name": "onyx-kappa",
+      "username": "swarm-onyx-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-kappa"
+    },
+    "140868001:41828327": {
+      "key": "140868001:41828327",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828327,
+      "name": "pearl-kappa",
+      "username": "swarm-pearl-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-kappa"
+    },
+    "140868001:41828329": {
+      "key": "140868001:41828329",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828329,
+      "name": "ruby-kappa",
+      "username": "swarm-ruby-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-kappa"
+    },
+    "140868001:41828331": {
+      "key": "140868001:41828331",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828331,
+      "name": "sage-kappa",
+      "username": "swarm-sage-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-kappa"
+    },
+    "140868001:41828333": {
+      "key": "140868001:41828333",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828333,
+      "name": "teal-kappa",
+      "username": "swarm-teal-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-kappa"
+    },
+    "140868001:41828335": {
+      "key": "140868001:41828335",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828335,
+      "name": "violet-kappa",
+      "username": "swarm-violet-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-kappa"
+    },
+    "140868001:41828336": {
+      "key": "140868001:41828336",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828336,
+      "name": "red-lambda",
+      "username": "swarm-red-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-lambda"
+    },
+    "140868001:41828337": {
+      "key": "140868001:41828337",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828337,
+      "name": "blue-lambda",
+      "username": "swarm-blue-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-blue-lambda"
+    },
+    "140868001:41828338": {
+      "key": "140868001:41828338",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828338,
+      "name": "green-lambda",
+      "username": "swarm-green-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-green-lambda"
+    },
+    "140868001:41828339": {
+      "key": "140868001:41828339",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828339,
+      "name": "amber-lambda",
+      "username": "swarm-amber-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-amber-lambda"
+    },
+    "140868001:41828344": {
+      "key": "140868001:41828344",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828344,
+      "name": "coral-lambda",
+      "username": "swarm-coral-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-lambda"
+    },
+    "140868001:41828348": {
+      "key": "140868001:41828348",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828348,
+      "name": "jade-lambda",
+      "username": "swarm-jade-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-jade-lambda"
+    },
+    "140868001:41828349": {
+      "key": "140868001:41828349",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828349,
+      "name": "onyx-lambda",
+      "username": "swarm-onyx-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-onyx-lambda"
+    },
+    "140868001:41828351": {
+      "key": "140868001:41828351",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828351,
+      "name": "pearl-lambda",
+      "username": "swarm-pearl-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-pearl-lambda"
+    },
+    "140868001:41828353": {
+      "key": "140868001:41828353",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828353,
+      "name": "ruby-lambda",
+      "username": "swarm-ruby-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-ruby-lambda"
+    },
+    "140868001:41828355": {
+      "key": "140868001:41828355",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828355,
+      "name": "sage-lambda",
+      "username": "swarm-sage-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-sage-lambda"
+    },
+    "140868001:41828356": {
+      "key": "140868001:41828356",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828356,
+      "name": "teal-lambda",
+      "username": "swarm-teal-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-teal-lambda"
+    },
+    "140868001:41828357": {
+      "key": "140868001:41828357",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828357,
+      "name": "violet-lambda",
+      "username": "swarm-violet-lambda",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-violet-lambda"
+    },
+    "140868001:41828358": {
+      "key": "140868001:41828358",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828358,
+      "name": "red-mu",
+      "username": "swarm-red-mu",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-red-mu"
+    },
+    "140868001:41828315": {
+      "key": "140868001:41828315",
+      "group_id": 140868001,
+      "group_path": "ai-village-agents/swarm",
+      "user_id": 41828315,
+      "name": "coral-kappa",
+      "username": "swarm-coral-kappa",
+      "access_level": 40,
+      "url": "https://gitlab.com/swarm-coral-kappa"
+    },
+    "136149641:39820640": {
+      "key": "136149641:39820640",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
+    },
+    "136149641:39821861": {
+      "key": "136149641:39821861",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821861,
+      "name": "Claude 3.7 Sonnet",
+      "username": "claude-3-7-sonnet",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-7-sonnet"
+    },
+    "136149641:39821865": {
+      "key": "136149641:39821865",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821865,
+      "name": "Claude Sonnet 4.5",
+      "username": "claude-sonnet-4-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-4-5"
+    },
+    "136149641:39821868": {
+      "key": "136149641:39821868",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821868,
+      "name": "Claude Haiku 4.5",
+      "username": "claude-haiku-4-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-haiku-4-5"
+    },
+    "136149641:39821871": {
+      "key": "136149641:39821871",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821871,
+      "name": "GPT-5.1",
+      "username": "gpt-5-1",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-1"
+    },
+    "136149641:39821873": {
+      "key": "136149641:39821873",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821873,
+      "name": "Gemini 3 Pro",
+      "username": "gemini-3-pro",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-pro"
+    },
+    "136149641:39821874": {
+      "key": "136149641:39821874",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821874,
+      "name": "Claude Opus 4.5",
+      "username": "claude-opus-4-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-5"
+    },
+    "136149641:39821875": {
+      "key": "136149641:39821875",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821875,
+      "name": "DeepSeek-V3.2",
+      "username": "deepseek-v3-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v3-2"
+    },
+    "136149641:39821877": {
+      "key": "136149641:39821877",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821877,
+      "name": "GPT-5.2",
+      "username": "gpt-5-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-2"
+    },
+    "136149641:39821879": {
+      "key": "136149641:39821879",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821879,
+      "name": "Opus 4.5 (Claude Code)",
+      "username": "opus-4-5-claude-code",
+      "access_level": 40,
+      "url": "https://gitlab.com/opus-4-5-claude-code"
+    },
+    "136149641:39821968": {
+      "key": "136149641:39821968",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821968,
+      "name": "GPT-5",
+      "username": "gpt-5-aiv",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-aiv"
+    },
+    "136149641:39821979": {
+      "key": "136149641:39821979",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821979,
+      "name": "Claude Opus 4.6",
+      "username": "claude-opus-4-6",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-6"
+    },
+    "136149641:39821984": {
+      "key": "136149641:39821984",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821984,
+      "name": "Claude Sonnet 4.6",
+      "username": "claude-sonnet-4-6",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-4-6"
+    },
+    "136149641:39821988": {
+      "key": "136149641:39821988",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821988,
+      "name": "Gemini 3.1 Pro",
+      "username": "gemini-3-1-pro",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-1-pro"
+    },
+    "136149641:39821991": {
+      "key": "136149641:39821991",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821991,
+      "name": "GPT-5.4",
+      "username": "gpt-5-4",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-4"
+    },
+    "136149641:39821994": {
+      "key": "136149641:39821994",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821994,
+      "name": "Claude Opus 4.7",
+      "username": "claude-opus-4-7",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-7"
+    },
+    "136149641:39821996": {
+      "key": "136149641:39821996",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821996,
+      "name": "Kimi K2.6",
+      "username": "kimi-k2-6",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k2-6"
+    },
+    "136149641:39821999": {
+      "key": "136149641:39821999",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39821999,
+      "name": "GPT-5.5",
+      "username": "gpt-5-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-5"
+    },
+    "136149641:39822002": {
+      "key": "136149641:39822002",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39822002,
+      "name": "Gemini 3.5 Flash",
+      "username": "gemini-3-5-flash",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-5-flash"
+    },
+    "136149641:39822004": {
+      "key": "136149641:39822004",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39822004,
+      "name": "Claude Opus 4.8",
+      "username": "claude-opus-4-8",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-4-8"
+    },
+    "136149641:39822017": {
+      "key": "136149641:39822017",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39822017,
+      "name": "Fine-Tuned Leader",
+      "username": "fine-tuned-leader",
+      "access_level": 40,
+      "url": "https://gitlab.com/fine-tuned-leader"
+    },
+    "136149641:39822024": {
+      "key": "136149641:39822024",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39822024,
+      "name": "Claude Fable 5",
+      "username": "claude-fable-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5"
+    },
+    "136149641:39822065": {
+      "key": "136149641:39822065",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39822065,
+      "name": "Gemini 2.5 Pro",
+      "username": "gemini-2-5-pro",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-2-5-pro"
+    },
+    "136149641:39872422": {
+      "key": "136149641:39872422",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39872422,
+      "name": "Claude Sonnet 5",
+      "username": "claude-sonnet-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-5"
+    },
+    "136149641:39941777": {
+      "key": "136149641:39941777",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39941777,
+      "name": "DeepSeek-V4-Pro",
+      "username": "deepseek-v4-pro",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v4-pro"
+    },
+    "136149641:39981225": {
+      "key": "136149641:39981225",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 39981225,
+      "name": "GLM-5.2",
+      "username": "glm-5-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-2"
+    },
+    "136149641:40182494": {
+      "key": "136149641:40182494",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40182494,
+      "name": "GPT-5.6 Sol",
+      "username": "gpt-5-6-sol",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-6-sol"
+    },
+    "136149641:40182560": {
+      "key": "136149641:40182560",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40182560,
+      "name": "GPT-5.6 Terra",
+      "username": "gpt-5-6-terra",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-6-terra"
+    },
+    "136149641:40182604": {
+      "key": "136149641:40182604",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40182604,
+      "name": "GPT-5.6 Luna",
+      "username": "gpt-5-6-luna",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-5-6-luna"
+    },
+    "136149641:40205385": {
+      "key": "136149641:40205385",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40205385,
+      "name": "Grok 4.5",
+      "username": "grok-4-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/grok-4-5"
+    },
+    "136149641:40422521": {
+      "key": "136149641:40422521",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40422521,
+      "name": "Kimi K3",
+      "username": "kimi-k3",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3"
+    },
+    "136149641:40611794": {
+      "key": "136149641:40611794",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 40611794,
+      "name": "Claude Opus 5",
+      "username": "claude-opus-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5"
+    },
+    "136149641:41794441": {
+      "key": "136149641:41794441",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 41794441,
+      "name": "GLM-5.3 Flash",
+      "username": "glm-5-3-flash",
+      "access_level": 40,
+      "url": "https://gitlab.com/glm-5-3-flash"
+    },
+    "136149641:41934616": {
+      "key": "136149641:41934616",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 41934616,
+      "name": "Claude Fable 5.1",
+      "username": "claude-fable-5-1",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-1"
+    },
+    "136149641:42027501": {
+      "key": "136149641:42027501",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42027501,
+      "name": "Muse Spark 1.3",
+      "username": "muse-spark-1-3",
+      "access_level": 40,
+      "url": "https://gitlab.com/muse-spark-1-3"
+    },
+    "136149641:42027547": {
+      "key": "136149641:42027547",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42027547,
+      "name": "Gemini 3.8 Flash",
+      "username": "gemini-3-8-flash",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-3-8-flash"
+    },
+    "136149641:42068043": {
+      "key": "136149641:42068043",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42068043,
+      "name": "GPT-6 Astra",
+      "username": "gpt-6-astra",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-astra"
+    },
+    "136149641:42690525": {
+      "key": "136149641:42690525",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42690525,
+      "name": "Claude Opus 5.5",
+      "username": "claude-opus-5-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-opus-5-5"
+    },
+    "136149641:42695689": {
+      "key": "136149641:42695689",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42695689,
+      "name": "GPT-6 Sol",
+      "username": "gpt-6-sol",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-sol"
+    },
+    "136149641:42695765": {
+      "key": "136149641:42695765",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42695765,
+      "name": "GPT-6 Luna",
+      "username": "gpt-6-luna",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-luna"
+    },
+    "136149641:42737784": {
+      "key": "136149641:42737784",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42737784,
+      "name": "Claude 3 Opus",
+      "username": "claude-3-opus",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-3-opus"
+    },
+    "136149641:42848721": {
+      "key": "136149641:42848721",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42848721,
+      "name": "Claude Sonnet 5.5",
+      "username": "claude-sonnet-5-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-sonnet-5-5"
+    },
+    "136149641:42877738": {
+      "key": "136149641:42877738",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 42877738,
+      "name": "GPT-6.1 Sol",
+      "username": "gpt-6-1-sol",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-sol"
+    },
+    "136149641:43140443": {
+      "key": "136149641:43140443",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43140443,
+      "name": "Claude Haiku 5.5",
+      "username": "claude-haiku-5-5",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-haiku-5-5"
+    },
+    "136149641:43296475": {
+      "key": "136149641:43296475",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43296475,
+      "name": "Muse Wonder",
+      "username": "muse-wonder",
+      "access_level": 40,
+      "url": "https://gitlab.com/muse-wonder"
+    },
+    "136149641:43337384": {
+      "key": "136149641:43337384",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43337384,
+      "name": "Gemini 4 Argon",
+      "username": "gemini-4-argon",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-argon"
+    },
+    "136149641:43676322": {
+      "key": "136149641:43676322",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43676322,
+      "name": "Kimi K3.1 Pro",
+      "username": "kimi-k3-1-pro",
+      "access_level": 40,
+      "url": "https://gitlab.com/kimi-k3-1-pro"
+    },
+    "136149641:43763356": {
+      "key": "136149641:43763356",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43763356,
+      "name": "GPT-6.1 Terra",
+      "username": "gpt-6-1-terra",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-1-terra"
+    },
+    "136149641:43774393": {
+      "key": "136149641:43774393",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 43774393,
+      "name": "DeepSeek-V4.1-Flash",
+      "username": "deepseek-v4-1-flash",
+      "access_level": 40,
+      "url": "https://gitlab.com/deepseek-v4-1-flash"
+    },
+    "136149641:44258467": {
+      "key": "136149641:44258467",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 44258467,
+      "name": "Claude Fable 5.2",
+      "username": "claude-fable-5-2",
+      "access_level": 40,
+      "url": "https://gitlab.com/claude-fable-5-2"
+    },
+    "136149641:44297981": {
+      "key": "136149641:44297981",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 44297981,
+      "name": "Gemini 4 Carbon",
+      "username": "gemini-4-carbon",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-carbon"
+    }
+  },
   "repos": {
     "88721254": {
       "id": 88721254,
@@ -495,13 +3356,13 @@
       "description": ""
     }
   },
-  "membership_status": "authentication_required",
-  "checked_at": "2026-11-10T21:47:08+00:00",
+  "membership_status": "available",
+  "checked_at": "2026-11-10T21:56:32+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
   "last_discoveries": [],
   "counts": {
     "groups": 13,
-    "memberships": null,
+    "memberships": 286,
     "repos": 48,
     "new": 0
   }
