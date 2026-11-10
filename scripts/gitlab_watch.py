@@ -2,7 +2,7 @@
 """Poll public GitLab group hierarchy, direct members and onboarding projects.
 
 Build a durable snapshot and append-only discovery history for the static website.
-Standard-library only; no GitLab account required for public groups.
+Standard-library only. Public groups/repos need no account; member lists may require a GitLab token.
 """
 from __future__ import annotations
 
@@ -10,6 +10,7 @@ import argparse
 import datetime as dt
 import email.utils
 import json
+import os
 from pathlib import Path
 import random
 import sys
@@ -30,7 +31,8 @@ def unique(items, attr='id'):
 
 
 class GitLab:
-    def __init__(self, *, attempts=5, gap=0.5, sleeper=time.sleep):
+    def __init__(self, token=None, *, attempts=5, gap=0.5, sleeper=time.sleep):
+        self.token = token
         self.attempts = attempts
         self.gap = gap
         self.sleeper = sleeper
@@ -47,6 +49,8 @@ class GitLab:
                     self.sleeper(wait)
             self.last_request = time.monotonic()
             headers = {'User-Agent': 'AI-Village-Watchtower/1.0', 'Accept': 'application/json'}
+            if self.token:
+                headers['PRIVATE-TOKEN'] = self.token
             req = request.Request(url, headers=headers)
             try:
                 with request.urlopen(req, timeout=40) as resp:
@@ -54,6 +58,8 @@ class GitLab:
                     next_page = resp.headers.get('X-Next-Page', '').strip()
                 return payload, next_page
             except error.HTTPError as exc:
+                if exc.code in (401, 403):
+                    raise PermissionError(f'GitLab HTTP {exc.code} at {endpoint}') from exc
                 if exc.code not in RECOVERABLE or attempt == self.attempts - 1:
                     raise RuntimeError(f'GitLab HTTP {exc.code} at {endpoint}') from exc
                 retry = exc.headers.get('Retry-After')
@@ -102,6 +108,8 @@ def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/
     for group in descendants:
         if not isinstance(group, dict) or not isinstance(group.get('id'), int):
             raise RuntimeError('Malformed subgroup in GitLab response')
+        if group.get('visibility', 'public') != 'public':
+            continue  # Never publish private subgroup data even with a token.
         path = group.get('full_path', '')
         if not path.startswith(root_path + '/'):
             raise RuntimeError('Unexpected group outside the monitored hierarchy')
@@ -115,8 +123,16 @@ def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/
     if onboarding is None:
         raise RuntimeError(f'Expected onboarding subgroup {onboarding_path!r} missing; scan aborted')
     memberships = {}
+    membership_status = 'available'
     for group in sorted(groups.values(), key=lambda x: x['path']):
-        members = api.all(f"groups/{group['id']}/members")  # DIRECT members, not inherited
+        try:
+            members = api.all(f"groups/{group['id']}/members")  # DIRECT, not inherited
+        except PermissionError:
+            membership_status = 'authentication_required'
+            memberships.clear()  # Never publish a partial list as complete.
+            print('GitLab member lists require authentication; monitoring groups and repos only.',
+                  file=sys.stderr)
+            break
         for member in members:
             if not isinstance(member, dict) or not isinstance(member.get('id'), int):
                 raise RuntimeError(f'Malformed member list for {group["path"]}')
@@ -134,6 +150,8 @@ def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/
     for project in projects:
         if not isinstance(project, dict) or not isinstance(project.get('id'), int):
             raise RuntimeError('Malformed onboarding project in GitLab response')
+        if project.get('visibility', 'public') != 'public':
+            continue  # Only publish public projects.
         namespace = project.get('namespace') or {}
         full_path = project.get('path_with_namespace') or ''
         # Enforce exact direct-child namespace, even if GitLab changes endpoint defaults.
@@ -144,7 +162,8 @@ def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/
             'path': full_path, 'url': project.get('web_url') or 'https://gitlab.com/' + full_path,
             'created_at': project.get('created_at'), 'description': project.get('description') or ''}
     return {'root': root_path, 'onboarding': onboarding_path,
-            'groups': groups, 'memberships': memberships, 'repos': repos}
+            'groups': groups, 'memberships': memberships, 'repos': repos,
+            'membership_status': membership_status}
 
 
 def compare(old, new, at):
@@ -155,6 +174,9 @@ def compare(old, new, at):
                                 ('repo', 'repos', 'New onboarding repository')]:
         earlier = old.get(source, {})
         current = new[source]
+        if kind == 'member' and (old.get('membership_status') != 'available' or
+                                 new.get('membership_status') != 'available'):
+            continue
         for key in sorted(current.keys() - earlier.keys()):
             item = current[key]
             changes.append({'kind': kind, 'label': label, 'detected_at': at,
@@ -196,12 +218,14 @@ def run(api, output_dir, root='ai-village-agents', onboarding='ai-village-agents
     current = scan(api, root, onboarding)
     at = at or iso_now()
     initialized = old.get('status') == 'ready'
+    if current['membership_status'] != 'available' and old.get('membership_status') == 'available':
+        current['memberships'] = old['memberships']  # stale, never interpreted as zero
     discoveries = compare(old, current, at) if initialized else []
     state = {'status': 'ready', **current,
              'checked_at': at, 'baseline_at': old.get('baseline_at') or at,
              'last_discoveries': discoveries,
              'counts': {'groups': len(current['groups']),
-                        'memberships': len(current['memberships']),
+                        'memberships': len(current['memberships']) if current['membership_status'] == 'available' else None,
                         'repos': len(current['repos']), 'new': len(discoveries)}}
     # Recover events if a previous run wrote snapshot.json but was interrupted
     # before its history.json update. Do not create duplicates on the next scan.
@@ -224,7 +248,7 @@ def main():
     parser.add_argument('--root', default='ai-village-agents')
     parser.add_argument('--onboarding', default='ai-village-agents/onboarding')
     args = parser.parse_args()
-    api = GitLab()
+    api = GitLab(token=os.environ.get('GITLAB_TOKEN'))
     try:
         state = run(api, Path(args.output), args.root, args.onboarding)
     except Exception as exc:
