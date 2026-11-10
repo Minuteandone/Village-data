@@ -36,6 +36,8 @@ jobs:
       - name: Test watch logic without network
         run: python -m unittest discover -s tests -p 'test_gitlab_watch.py' -v
       - name: Collect public GitLab changes
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: python scripts/gitlab_watch.py --output docs/data
       - name: Commit published snapshot and history
         run: |
