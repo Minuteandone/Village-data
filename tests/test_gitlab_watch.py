@@ -120,6 +120,22 @@ class WatchTests(unittest.TestCase):
         self.assertEqual(api.all('groups/100/members'), [1, 2])
         self.assertEqual(api.calls, [1, 2])
 
+    def test_membership_auth_required_keeps_public_scans(self):
+        class NoMemberAccess(FakeApi):
+            def all(self, path, **kwargs):
+                if path.endswith('/members'):
+                    raise PermissionError('GitLab HTTP 401')
+                return super().all(path, **kwargs)
+        with tempfile.TemporaryDirectory() as tmp:
+            report = watch.run(
+                NoMemberAccess(repos=[project(22, 'ai-village-agents/onboarding/new-agent')]),
+                tmp, at='2026-11-10T14:00:00Z')
+            self.assertEqual(report['membership_status'], 'authentication_required')
+            self.assertIsNone(report['counts']['memberships'])
+            self.assertEqual(report['counts']['groups'], 2)
+            self.assertEqual(report['counts']['repos'], 1)
+            self.assertTrue(report['status'] == 'ready')
+
     def test_scope_check(self):
         old = {'groups': {}, 'memberships': {}, 'repos': {}}
         new = {'groups': {'12': {'name': 'sub', 'path': 'ai-village-agents/sub', 'url': 'https://gitlab.com/g'}},
