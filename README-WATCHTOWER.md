@@ -29,7 +29,7 @@ The initial live run confirmed GitLab returned `401 Unauthorized` for `GET /grou
 2. In this GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name the secret `GITLAB_TOKEN` and paste the token's value there.
 3. Rerun the [Watch AI Village GitLab workflow](https://github.com/Minuteandone/Village-data/actions/workflows/gitlab-watchtower.yml) manually. A successful authorized member scan will establish a member baseline; future scans can report additions.
 
-The scanner deliberately restricts results to publicly visible groups and public onboarding projects even when authenticated. Only assign the token the minimum permissions you are comfortable with. If GitLab continues to deny member access, the site will clearly mark it unavailable.
+The scanner always retrieves the public group hierarchy and onboarding projects **without a token** (GitLab hides non-member groups from some authenticated listings). It uses `GITLAB_TOKEN` **only for direct member lookups**. The token does not grant access to membership lists your GitLab account cannot view. The scanner deliberately restricts results to publicly visible groups and public onboarding projects even when authenticated. Only assign the token the minimum permissions you are comfortable with. If GitLab continues to deny member access, the site will clearly mark it unavailable.
 
 ## Files
 

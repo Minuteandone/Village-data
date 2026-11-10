@@ -107,6 +107,49 @@ class WatchTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, 'onboarding subgroup'):
                 watch.run(NoOnboarding(), tmp)
 
+    def test_public_discovery_stays_unauthenticated_with_token(self):
+        # An authenticated GitLab descendant listing may exclude public groups
+        # unless the token's owner belongs to them. Never call it for discovery.
+        class TokenMemberApi(FakeApi):
+            def get(self, path, **kwargs):
+                raise AssertionError('Token must not request group metadata')
+
+            def all(self, path, **kwargs):
+                if not path.endswith('/members'):
+                    raise AssertionError('Token must not list groups or projects')
+                return super().all(path, **kwargs)
+
+        public = FakeApi(repos=[project(12, 'ai-village-agents/onboarding/first')])
+        private_members = TokenMemberApi()
+        with tempfile.TemporaryDirectory() as tmp:
+            state = watch.run(public, tmp, at='2026-11-10T16:00:00Z',
+                              member_api=private_members)
+        self.assertEqual(state['counts']['groups'], 2)
+        self.assertEqual(state['counts']['repos'], 1)
+        self.assertEqual(state['counts']['memberships'], 2)
+        self.assertTrue(any(path.endswith('descendant_groups') for path, _ in public.calls))
+        self.assertTrue(all(not path.endswith('/members') for path, _ in public.calls))
+        self.assertTrue(all(path.endswith('/members') for path, _ in private_members.calls))
+
+    def test_token_without_member_access_keeps_groups_and_repos(self):
+        class DeniedMembers(FakeApi):
+            def get(self, path, **kwargs):
+                raise AssertionError('Token may only fetch members')
+
+            def all(self, path, **kwargs):
+                if not path.endswith('/members'):
+                    raise AssertionError('Token may only fetch members')
+                raise PermissionError('GitLab HTTP 403')
+
+        public = FakeApi(repos=[project(12, 'ai-village-agents/onboarding/first')])
+        with tempfile.TemporaryDirectory() as tmp:
+            state = watch.run(public, tmp, at='2026-11-10T16:00:00Z',
+                              member_api=DeniedMembers())
+        self.assertEqual(state['counts']['groups'], 2)
+        self.assertEqual(state['counts']['repos'], 1)
+        self.assertEqual(state['membership_status'], 'authentication_required')
+        self.assertIsNone(state['counts']['memberships'])
+
     def test_paginated_fetch(self):
         class Paging(watch.GitLab):
             def __init__(self):

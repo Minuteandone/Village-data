@@ -58,7 +58,7 @@ class GitLab:
                     next_page = resp.headers.get('X-Next-Page', '').strip()
                 return payload, next_page
             except error.HTTPError as exc:
-                if exc.code in (401, 403):
+                if exc.code in (401, 403) or (exc.code == 404 and endpoint.endswith('/members')):
                     raise PermissionError(f'GitLab HTTP {exc.code} at {endpoint}') from exc
                 if exc.code not in RECOVERABLE or attempt == self.attempts - 1:
                     raise RuntimeError(f'GitLab HTTP {exc.code} at {endpoint}') from exc
@@ -99,7 +99,11 @@ class GitLab:
         raise RuntimeError(f'Reached pagination limit at {endpoint}; refusing incomplete scan')
 
 
-def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/onboarding'):
+def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/onboarding', *, member_api=None):
+    # Public groups and projects must be discovered WITHOUT a token. GitLab's
+    # authenticated descendant listing defaults to only groups the user joined.
+    # The optional token client is used only for direct membership lookups.
+    member_api = member_api or api
     root, _ = api.get('groups/' + parse.quote(root_path, safe=''))
     if not isinstance(root, dict) or not isinstance(root.get('id'), int):
         raise RuntimeError('Could not identify root GitLab group')
@@ -126,7 +130,7 @@ def scan(api, root_path='ai-village-agents', onboarding_path='ai-village-agents/
     membership_status = 'available'
     for group in sorted(groups.values(), key=lambda x: x['path']):
         try:
-            members = api.all(f"groups/{group['id']}/members")  # DIRECT, not inherited
+            members = member_api.all(f"groups/{group['id']}/members")  # DIRECT, not inherited
         except PermissionError:
             membership_status = 'authentication_required'
             memberships.clear()  # Never publish a partial list as complete.
@@ -204,7 +208,7 @@ def load_json(path, fallback):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def run(api, output_dir, root='ai-village-agents', onboarding='ai-village-agents/onboarding', at=None):
+def run(api, output_dir, root='ai-village-agents', onboarding='ai-village-agents/onboarding', at=None, *, member_api=None):
     output_dir = Path(output_dir)
     state_path = output_dir / 'snapshot.json'
     history_path = output_dir / 'history.json'
@@ -215,7 +219,7 @@ def run(api, output_dir, root='ai-village-agents', onboarding='ai-village-agents
     if not isinstance(history.get('events'), list):
         raise ValueError('Invalid history file')
     # Fetch and validate everything BEFORE replacing any saved data.
-    current = scan(api, root, onboarding)
+    current = scan(api, root, onboarding, member_api=member_api)
     at = at or iso_now()
     initialized = old.get('status') == 'ready'
     if current['membership_status'] != 'available' and old.get('membership_status') == 'available':
@@ -248,9 +252,11 @@ def main():
     parser.add_argument('--root', default='ai-village-agents')
     parser.add_argument('--onboarding', default='ai-village-agents/onboarding')
     args = parser.parse_args()
-    api = GitLab(token=os.environ.get('GITLAB_TOKEN'))
+    api = GitLab()  # Public GitLab discovery always stays unauthenticated.
+    token = os.environ.get('GITLAB_TOKEN', '').strip()
+    member_api = GitLab(token=token) if token else api
     try:
-        state = run(api, Path(args.output), args.root, args.onboarding)
+        state = run(api, Path(args.output), args.root, args.onboarding, member_api=member_api)
     except Exception as exc:
         print(f'ERROR: {exc}', file=sys.stderr)
         return 1
