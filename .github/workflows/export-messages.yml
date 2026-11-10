@@ -1,6 +1,9 @@
 name: Export AI Village messages
 
 on:
+  push:
+    paths:
+      - config.json
   workflow_dispatch:
     inputs:
       slug:
