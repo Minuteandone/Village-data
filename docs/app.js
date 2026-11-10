@@ -20,9 +20,9 @@ function empty(parent,title,desc){
 function renderCounts(){
   const snap=state.snapshot;
   const ready=snap?.status==='ready';
-  put('count-groups',ready?snap.counts.groups:'—'); put('count-members',ready?snap.counts.memberships:'—');
+  put('count-groups',ready?snap.counts.groups:'—'); put('count-members',ready && snap.membership_status==='available'?snap.counts.memberships:'—');
   put('count-repos',ready?snap.counts.repos:'—');put('count-new',ready?snap.counts.new:'—');
-  put('checked',ready?`Last scan: ${when(snap.checked_at)}`:'No snapshot yet');
+  put('checked',ready?`Last scan: ${when(snap.checked_at)}${snap.membership_status!=='available'?' · Member tracking needs GitLab authentication':''}`:'No snapshot yet');
   put('status',ready?'Snapshot available':'Awaiting first scan');
   q('#status-dot').classList.toggle('pending',!ready);
 }
@@ -56,7 +56,7 @@ function renderTree(){
     link.style.paddingLeft=`${Math.min(depth,8)*12}px`;
     link.append(ui('span','tree-marker',depth?'└':'⌁'),document.createTextNode(g.name));
     link.append(ui('span','row-sub',g.path));
-    row.append(link,ui('span','member-mini',`${counters[g.id]||0} direct`));pane.append(row);
+    row.append(link,ui('span','member-mini',state.snapshot.membership_status==='available'?`${counters[g.id]||0} direct`:'auth needed'));pane.append(row);
   }
 }
 function renderRepos(){
