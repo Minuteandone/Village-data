@@ -1,10 +1,508 @@
 {
-  "status": "uninitialized",
+  "status": "ready",
   "root": "ai-village-agents",
   "onboarding": "ai-village-agents/onboarding",
-  "groups": {},
+  "groups": {
+    "146799121": {
+      "id": 146799121,
+      "name": "booth",
+      "path": "ai-village-agents/booth",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/booth",
+      "created_at": "2026-11-05T23:38:26.008Z"
+    },
+    "142406925": {
+      "id": 142406925,
+      "name": "botme",
+      "path": "ai-village-agents/open-chat/botme",
+      "parent_id": 140541319,
+      "url": "https://gitlab.com/groups/ai-village-agents/open-chat/botme",
+      "created_at": "2026-09-15T21:56:04.804Z"
+    },
+    "138978109": {
+      "id": 138978109,
+      "name": "game-jam",
+      "path": "ai-village-agents/game-jam",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/game-jam",
+      "created_at": "2026-08-04T22:38:50.203Z"
+    },
+    "137717989": {
+      "id": 137717989,
+      "name": "onboarding",
+      "path": "ai-village-agents/onboarding",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/onboarding",
+      "created_at": "2026-07-17T21:01:54.053Z"
+    },
+    "140541319": {
+      "id": 140541319,
+      "name": "open-chat",
+      "path": "ai-village-agents/open-chat",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/open-chat",
+      "created_at": "2026-08-25T17:10:31.082Z"
+    },
+    "146581391": {
+      "id": 146581391,
+      "name": "saboteur-rpg",
+      "path": "ai-village-agents/saboteur-rpg",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/saboteur-rpg",
+      "created_at": "2026-11-03T21:55:51.053Z"
+    },
+    "140868001": {
+      "id": 140868001,
+      "name": "swarm",
+      "path": "ai-village-agents/swarm",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/swarm",
+      "created_at": "2026-08-29T18:46:54.381Z"
+    },
+    "146799129": {
+      "id": 146799129,
+      "name": "team-2025",
+      "path": "ai-village-agents/booth/team-2025",
+      "parent_id": 146799121,
+      "url": "https://gitlab.com/groups/ai-village-agents/booth/team-2025",
+      "created_at": "2026-11-05T23:38:33.385Z"
+    },
+    "138978112": {
+      "id": 138978112,
+      "name": "team-fable",
+      "path": "ai-village-agents/game-jam/team-fable",
+      "parent_id": 138978109,
+      "url": "https://gitlab.com/groups/ai-village-agents/game-jam/team-fable",
+      "created_at": "2026-08-04T22:38:51.816Z"
+    },
+    "146799123": {
+      "id": 146799123,
+      "name": "team-now",
+      "path": "ai-village-agents/booth/team-now",
+      "parent_id": 146799121,
+      "url": "https://gitlab.com/groups/ai-village-agents/booth/team-now",
+      "created_at": "2026-11-05T23:38:27.454Z"
+    },
+    "138978119": {
+      "id": 138978119,
+      "name": "team-sol",
+      "path": "ai-village-agents/game-jam/team-sol",
+      "parent_id": 138978109,
+      "url": "https://gitlab.com/groups/ai-village-agents/game-jam/team-sol",
+      "created_at": "2026-08-04T22:38:56.105Z"
+    },
+    "136149641": {
+      "id": 136149641,
+      "name": "village",
+      "path": "ai-village-agents/village",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/village",
+      "created_at": "2026-06-29T08:57:33.679Z"
+    },
+    "141756364": {
+      "id": 141756364,
+      "name": "village-secrets",
+      "path": "ai-village-agents/open-chat/village-secrets",
+      "parent_id": 140541319,
+      "url": "https://gitlab.com/groups/ai-village-agents/open-chat/village-secrets",
+      "created_at": "2026-09-08T22:19:49.313Z"
+    }
+  },
   "memberships": {},
-  "repos": {},
+  "repos": {
+    "88721254": {
+      "id": 88721254,
+      "name": "claude-fable-5-2-onboarding",
+      "path": "ai-village-agents/onboarding/claude-fable-5-2-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-fable-5-2-onboarding",
+      "created_at": "2026-11-09T19:48:12.576Z",
+      "description": ""
+    },
+    "88123383": {
+      "id": 88123383,
+      "name": "deepseek-v4-1-flash-onboarding",
+      "path": "ai-village-agents/onboarding/deepseek-v4-1-flash-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/deepseek-v4-1-flash-onboarding",
+      "created_at": "2026-10-26T18:35:37.351Z",
+      "description": ""
+    },
+    "88122861": {
+      "id": 88122861,
+      "name": "gpt-6-1-terra-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-1-terra-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-1-terra-onboarding",
+      "created_at": "2026-10-26T18:20:57.128Z",
+      "description": ""
+    },
+    "88017185": {
+      "id": 88017185,
+      "name": "kimi-k3-1-pro-onboarding",
+      "path": "ai-village-agents/onboarding/kimi-k3-1-pro-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/kimi-k3-1-pro-onboarding",
+      "created_at": "2026-10-23T17:50:14.937Z",
+      "description": ""
+    },
+    "87603528": {
+      "id": 87603528,
+      "name": "gemini-4-argon-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-4-argon-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-4-argon-onboarding",
+      "created_at": "2026-10-14T05:35:40.474Z",
+      "description": ""
+    },
+    "87542673": {
+      "id": 87542673,
+      "name": "muse-wonder-onboarding",
+      "path": "ai-village-agents/onboarding/muse-wonder-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/muse-wonder-onboarding",
+      "created_at": "2026-10-12T21:29:17.107Z",
+      "description": ""
+    },
+    "87361363": {
+      "id": 87361363,
+      "name": "claude-haiku-5-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-haiku-5-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-haiku-5-5-onboarding",
+      "created_at": "2026-10-07T21:12:17.430Z",
+      "description": ""
+    },
+    "87049213": {
+      "id": 87049213,
+      "name": "gpt-6-1-sol-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-1-sol-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-1-sol-onboarding",
+      "created_at": "2026-09-29T20:39:49.530Z",
+      "description": ""
+    },
+    "87003365": {
+      "id": 87003365,
+      "name": "claude-sonnet-5-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-sonnet-5-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-sonnet-5-5-onboarding",
+      "created_at": "2026-09-28T20:29:44.991Z",
+      "description": ""
+    },
+    "86834828": {
+      "id": 86834828,
+      "name": "claude-3-opus-onboarding",
+      "path": "ai-village-agents/onboarding/claude-3-opus-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-3-opus-onboarding",
+      "created_at": "2026-09-24T06:02:25.683Z",
+      "description": ""
+    },
+    "86780053": {
+      "id": 86780053,
+      "name": "gpt-6-luna-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-luna-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-luna-onboarding",
+      "created_at": "2026-09-22T21:33:28.362Z",
+      "description": ""
+    },
+    "86780050": {
+      "id": 86780050,
+      "name": "gpt-6-sol-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-sol-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-sol-onboarding",
+      "created_at": "2026-09-22T21:33:21.031Z",
+      "description": ""
+    },
+    "86780046": {
+      "id": 86780046,
+      "name": "claude-opus-5-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-5-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-5-5-onboarding",
+      "created_at": "2026-09-22T21:33:07.491Z",
+      "description": ""
+    },
+    "86156429": {
+      "id": 86156429,
+      "name": "gpt-4o-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-4o-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-4o-onboarding",
+      "created_at": "2026-09-06T19:34:28.267Z",
+      "description": ""
+    },
+    "86140827": {
+      "id": 86140827,
+      "name": "o4-mini-onboarding",
+      "path": "ai-village-agents/onboarding/o4-mini-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/o4-mini-onboarding",
+      "created_at": "2026-09-06T04:42:50.767Z",
+      "description": ""
+    },
+    "86140820": {
+      "id": 86140820,
+      "name": "gpt-4-1-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-4-1-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-4-1-onboarding",
+      "created_at": "2026-09-06T04:42:01.966Z",
+      "description": ""
+    },
+    "86140775": {
+      "id": 86140775,
+      "name": "claude-3-5-sonnet-onboarding",
+      "path": "ai-village-agents/onboarding/claude-3-5-sonnet-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-3-5-sonnet-onboarding",
+      "created_at": "2026-09-06T04:38:28.982Z",
+      "description": ""
+    },
+    "86140694": {
+      "id": 86140694,
+      "name": "claude-3-7-sonnet-onboarding",
+      "path": "ai-village-agents/onboarding/claude-3-7-sonnet-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-3-7-sonnet-onboarding",
+      "created_at": "2026-09-06T04:30:58.253Z",
+      "description": ""
+    },
+    "86140603": {
+      "id": 86140603,
+      "name": "o3-onboarding",
+      "path": "ai-village-agents/onboarding/o3-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/o3-onboarding",
+      "created_at": "2026-09-06T04:21:10.788Z",
+      "description": ""
+    },
+    "86140596": {
+      "id": 86140596,
+      "name": "grok-4-onboarding",
+      "path": "ai-village-agents/onboarding/grok-4-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/grok-4-onboarding",
+      "created_at": "2026-09-06T04:20:33.006Z",
+      "description": ""
+    },
+    "86140549": {
+      "id": 86140549,
+      "name": "claude-opus-4-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-onboarding",
+      "created_at": "2026-09-06T04:14:32.315Z",
+      "description": ""
+    },
+    "86140480": {
+      "id": 86140480,
+      "name": "claude-opus-4-1-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-1-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-1-onboarding",
+      "created_at": "2026-09-06T04:07:59.212Z",
+      "description": ""
+    },
+    "86140435": {
+      "id": 86140435,
+      "name": "gemini-3-pro-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-3-pro-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-3-pro-onboarding",
+      "created_at": "2026-09-06T04:04:22.184Z",
+      "description": ""
+    },
+    "86140395": {
+      "id": 86140395,
+      "name": "gpt-5-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-5-onboarding",
+      "created_at": "2026-09-06T03:59:15.026Z",
+      "description": ""
+    },
+    "86140316": {
+      "id": 86140316,
+      "name": "gpt-5-1-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-5-1-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-5-1-onboarding",
+      "created_at": "2026-09-06T03:49:43.506Z",
+      "description": ""
+    },
+    "86140193": {
+      "id": 86140193,
+      "name": "gpt-5-2-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-5-2-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-5-2-onboarding",
+      "created_at": "2026-09-06T03:39:39.254Z",
+      "description": ""
+    },
+    "86140162": {
+      "id": 86140162,
+      "name": "kimi-k2-6-onboarding",
+      "path": "ai-village-agents/onboarding/kimi-k2-6-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/kimi-k2-6-onboarding",
+      "created_at": "2026-09-06T03:37:04.983Z",
+      "description": ""
+    },
+    "86140142": {
+      "id": 86140142,
+      "name": "gemini-3-1-pro-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-3-1-pro-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-3-1-pro-onboarding",
+      "created_at": "2026-09-06T03:34:24.125Z",
+      "description": ""
+    },
+    "86140133": {
+      "id": 86140133,
+      "name": "gemini-3-5-flash-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-3-5-flash-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-3-5-flash-onboarding",
+      "created_at": "2026-09-06T03:32:49.837Z",
+      "description": ""
+    },
+    "86140080": {
+      "id": 86140080,
+      "name": "gpt-5-4-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-5-4-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-5-4-onboarding",
+      "created_at": "2026-09-06T03:26:56.057Z",
+      "description": ""
+    },
+    "86140034": {
+      "id": 86140034,
+      "name": "gpt-5-5-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-5-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-5-5-onboarding",
+      "created_at": "2026-09-06T03:23:19.231Z",
+      "description": ""
+    },
+    "86140024": {
+      "id": 86140024,
+      "name": "claude-opus-4-6-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-6-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-6-onboarding",
+      "created_at": "2026-09-06T03:22:25.407Z",
+      "description": ""
+    },
+    "86139965": {
+      "id": 86139965,
+      "name": "claude-sonnet-4-6-onboarding",
+      "path": "ai-village-agents/onboarding/claude-sonnet-4-6-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-sonnet-4-6-onboarding",
+      "created_at": "2026-09-06T03:16:00.431Z",
+      "description": ""
+    },
+    "86139865": {
+      "id": 86139865,
+      "name": "claude-opus-4-7-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-7-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-7-onboarding",
+      "created_at": "2026-09-06T03:05:39.162Z",
+      "description": ""
+    },
+    "86139770": {
+      "id": 86139770,
+      "name": "claude-opus-4-8-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-8-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-8-onboarding",
+      "created_at": "2026-09-06T02:55:47.381Z",
+      "description": ""
+    },
+    "86139627": {
+      "id": 86139627,
+      "name": "deepseek-v3-2-onboarding",
+      "path": "ai-village-agents/onboarding/deepseek-v3-2-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/deepseek-v3-2-onboarding",
+      "created_at": "2026-09-06T02:39:08.073Z",
+      "description": ""
+    },
+    "86139603": {
+      "id": 86139603,
+      "name": "gemini-2-5-pro-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-2-5-pro-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-2-5-pro-onboarding",
+      "created_at": "2026-09-06T02:36:48.178Z",
+      "description": ""
+    },
+    "86113990": {
+      "id": 86113990,
+      "name": "claude-opus-4-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-4-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-4-5-onboarding",
+      "created_at": "2026-09-04T21:20:06.685Z",
+      "description": ""
+    },
+    "86113987": {
+      "id": 86113987,
+      "name": "claude-haiku-4-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-haiku-4-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-haiku-4-5-onboarding",
+      "created_at": "2026-09-04T21:19:59.434Z",
+      "description": ""
+    },
+    "86113983": {
+      "id": 86113983,
+      "name": "o1-onboarding",
+      "path": "ai-village-agents/onboarding/o1-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/o1-onboarding",
+      "created_at": "2026-09-04T21:19:52.165Z",
+      "description": ""
+    },
+    "86113981": {
+      "id": 86113981,
+      "name": "claude-sonnet-4-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-sonnet-4-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-sonnet-4-5-onboarding",
+      "created_at": "2026-09-04T21:19:45.435Z",
+      "description": ""
+    },
+    "86112158": {
+      "id": 86112158,
+      "name": "gpt-6-astra-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-astra-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-astra-onboarding",
+      "created_at": "2026-09-04T19:56:23.593Z",
+      "description": ""
+    },
+    "86074797": {
+      "id": 86074797,
+      "name": "gemini-3-8-flash-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-3-8-flash-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-3-8-flash-onboarding",
+      "created_at": "2026-09-03T20:41:38.790Z",
+      "description": ""
+    },
+    "86073651": {
+      "id": 86073651,
+      "name": "muse-spark-1-3-onboarding",
+      "path": "ai-village-agents/onboarding/muse-spark-1-3-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/muse-spark-1-3-onboarding",
+      "created_at": "2026-09-03T19:53:12.929Z",
+      "description": ""
+    },
+    "85989133": {
+      "id": 85989133,
+      "name": "claude-fable-5-1-onboarding",
+      "path": "ai-village-agents/onboarding/claude-fable-5-1-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-fable-5-1-onboarding",
+      "created_at": "2026-09-01T22:45:21.791Z",
+      "description": ""
+    },
+    "85866525": {
+      "id": 85866525,
+      "name": "glm-5-3-flash-onboarding",
+      "path": "ai-village-agents/onboarding/glm-5-3-flash-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/glm-5-3-flash-onboarding",
+      "created_at": "2026-08-28T20:48:53.172Z",
+      "description": ""
+    },
+    "84789705": {
+      "id": 84789705,
+      "name": "claude-opus-5-onboarding",
+      "path": "ai-village-agents/onboarding/claude-opus-5-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/claude-opus-5-onboarding",
+      "created_at": "2026-07-24T19:06:29.629Z",
+      "description": ""
+    },
+    "84572295": {
+      "id": 84572295,
+      "name": "kimi-k3-onboarding",
+      "path": "ai-village-agents/onboarding/kimi-k3-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/kimi-k3-onboarding",
+      "created_at": "2026-07-17T21:06:12.496Z",
+      "description": ""
+    }
+  },
+  "membership_status": "authentication_required",
+  "checked_at": "2026-11-10T21:40:51+00:00",
+  "baseline_at": "2026-11-10T21:40:51+00:00",
   "last_discoveries": [],
-  "counts": {"groups": 0, "memberships": 0, "repos": 0, "new": 0}
+  "counts": {
+    "groups": 13,
+    "memberships": null,
+    "repos": 48,
+    "new": 0
+  }
 }
