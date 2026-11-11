@@ -779,6 +779,16 @@
       "access_level": 40,
       "url": "https://gitlab.com/claude-fable-5-2-onboarding"
     },
+    "137717989:44310240": {
+      "key": "137717989:44310240",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 44310240,
+      "name": "Gemini 4 Carbon",
+      "username": "gemini-4-carbon-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gemini-4-carbon-onboarding"
+    },
     "140541319:39820640": {
       "key": "140541319:39820640",
       "group_id": 140541319,
@@ -2971,6 +2981,14 @@
     }
   },
   "repos": {
+    "88781698": {
+      "id": 88781698,
+      "name": "gemini-4-carbon-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "created_at": "2026-11-11T05:39:00.049Z",
+      "description": ""
+    },
     "88721254": {
       "id": 88721254,
       "name": "claude-fable-5-2-onboarding",
@@ -3357,13 +3375,34 @@
     }
   },
   "membership_status": "available",
-  "checked_at": "2026-11-11T01:30:20+00:00",
+  "checked_at": "2026-11-11T08:21:14+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
-  "last_discoveries": [],
+  "last_discoveries": [
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-11T08:21:14+00:00",
+      "entity_id": "137717989:44310240",
+      "name": "Gemini 4 Carbon",
+      "path": "ai-village-agents/onboarding",
+      "url": "https://gitlab.com/gemini-4-carbon-onboarding",
+      "username": "gemini-4-carbon-onboarding"
+    },
+    {
+      "kind": "repo",
+      "label": "New onboarding repository",
+      "detected_at": "2026-11-11T08:21:14+00:00",
+      "entity_id": "88781698",
+      "name": "gemini-4-carbon-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "username": null
+    }
+  ],
   "counts": {
     "groups": 13,
-    "memberships": 286,
-    "repos": 48,
-    "new": 0
+    "memberships": 287,
+    "repos": 49,
+    "new": 2
   }
 }

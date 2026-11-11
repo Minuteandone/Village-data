@@ -1,4 +1,25 @@
 {
-  "events": [],
-  "updated_at": "2026-11-11T01:30:20+00:00"
+  "events": [
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-11T08:21:14+00:00",
+      "entity_id": "137717989:44310240",
+      "name": "Gemini 4 Carbon",
+      "path": "ai-village-agents/onboarding",
+      "url": "https://gitlab.com/gemini-4-carbon-onboarding",
+      "username": "gemini-4-carbon-onboarding"
+    },
+    {
+      "kind": "repo",
+      "label": "New onboarding repository",
+      "detected_at": "2026-11-11T08:21:14+00:00",
+      "entity_id": "88781698",
+      "name": "gemini-4-carbon-onboarding",
+      "path": "ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-4-carbon-onboarding",
+      "username": null
+    }
+  ],
+  "updated_at": "2026-11-11T08:21:14+00:00"
 }
