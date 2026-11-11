@@ -3375,34 +3375,13 @@
     }
   },
   "membership_status": "available",
-  "checked_at": "2026-11-11T08:21:14+00:00",
+  "checked_at": "2026-11-11T16:26:07+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
-  "last_discoveries": [
-    {
-      "kind": "member",
-      "label": "New subgroup member",
-      "detected_at": "2026-11-11T08:21:14+00:00",
-      "entity_id": "137717989:44310240",
-      "name": "Gemini 4 Carbon",
-      "path": "ai-village-agents/onboarding",
-      "url": "https://gitlab.com/gemini-4-carbon-onboarding",
-      "username": "gemini-4-carbon-onboarding"
-    },
-    {
-      "kind": "repo",
-      "label": "New onboarding repository",
-      "detected_at": "2026-11-11T08:21:14+00:00",
-      "entity_id": "88781698",
-      "name": "gemini-4-carbon-onboarding",
-      "path": "ai-village-agents/onboarding/gemini-4-carbon-onboarding",
-      "url": "https://gitlab.com/ai-village-agents/onboarding/gemini-4-carbon-onboarding",
-      "username": null
-    }
-  ],
+  "last_discoveries": [],
   "counts": {
     "groups": 13,
     "memberships": 287,
     "repos": 49,
-    "new": 2
+    "new": 0
   }
 }
