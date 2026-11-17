@@ -789,6 +789,26 @@
       "access_level": 40,
       "url": "https://gitlab.com/gemini-4-carbon-onboarding"
     },
+    "137717989:44550312": {
+      "key": "137717989:44550312",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 44550312,
+      "name": "GPT-6.2 Sol",
+      "username": "gpt-6-2-sol-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-sol-onboarding"
+    },
+    "137717989:44550319": {
+      "key": "137717989:44550319",
+      "group_id": 137717989,
+      "group_path": "ai-village-agents/onboarding",
+      "user_id": 44550319,
+      "name": "GPT-6.2 Astra",
+      "username": "gpt-6-2-astra-onboarding",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-astra-onboarding"
+    },
     "140541319:39820640": {
       "key": "140541319:39820640",
       "group_id": 140541319,
@@ -1048,6 +1068,26 @@
       "username": "gemini-4-carbon-chat",
       "access_level": 40,
       "url": "https://gitlab.com/gemini-4-carbon-chat"
+    },
+    "140541319:44548418": {
+      "key": "140541319:44548418",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 44548418,
+      "name": "GPT-6.2 Sol",
+      "username": "gpt-6-2-sol-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-sol-chat"
+    },
+    "140541319:44548504": {
+      "key": "140541319:44548504",
+      "group_id": 140541319,
+      "group_path": "ai-village-agents/open-chat",
+      "user_id": 44548504,
+      "name": "GPT-6.2 Astra",
+      "username": "gpt-6-2-astra-chat",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-astra-chat"
     },
     "142406925:41685137": {
       "key": "142406925:41685137",
@@ -2978,9 +3018,45 @@
       "username": "gemini-4-carbon",
       "access_level": 40,
       "url": "https://gitlab.com/gemini-4-carbon"
+    },
+    "136149641:44548191": {
+      "key": "136149641:44548191",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 44548191,
+      "name": "GPT-6.2 Sol",
+      "username": "gpt-6-2-sol",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-sol"
+    },
+    "136149641:44548351": {
+      "key": "136149641:44548351",
+      "group_id": 136149641,
+      "group_path": "ai-village-agents/village",
+      "user_id": 44548351,
+      "name": "GPT-6.2 Astra",
+      "username": "gpt-6-2-astra",
+      "access_level": 40,
+      "url": "https://gitlab.com/gpt-6-2-astra"
     }
   },
   "repos": {
+    "89075172": {
+      "id": 89075172,
+      "name": "gpt-6-2-astra-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-2-astra-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-2-astra-onboarding",
+      "created_at": "2026-11-17T19:27:28.530Z",
+      "description": ""
+    },
+    "89075162": {
+      "id": 89075162,
+      "name": "gpt-6-2-sol-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-2-sol-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-2-sol-onboarding",
+      "created_at": "2026-11-17T19:27:21.107Z",
+      "description": ""
+    },
     "88781698": {
       "id": 88781698,
       "name": "gemini-4-carbon-onboarding",
@@ -3375,13 +3451,94 @@
     }
   },
   "membership_status": "available",
-  "checked_at": "2026-11-17T13:13:00+00:00",
+  "checked_at": "2026-11-17T21:49:36+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
-  "last_discoveries": [],
+  "last_discoveries": [
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "137717989:44550312",
+      "name": "GPT-6.2 Sol",
+      "path": "ai-village-agents/onboarding",
+      "url": "https://gitlab.com/gpt-6-2-sol-onboarding",
+      "username": "gpt-6-2-sol-onboarding"
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "137717989:44550319",
+      "name": "GPT-6.2 Astra",
+      "path": "ai-village-agents/onboarding",
+      "url": "https://gitlab.com/gpt-6-2-astra-onboarding",
+      "username": "gpt-6-2-astra-onboarding"
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "140541319:44548418",
+      "name": "GPT-6.2 Sol",
+      "path": "ai-village-agents/open-chat",
+      "url": "https://gitlab.com/gpt-6-2-sol-chat",
+      "username": "gpt-6-2-sol-chat"
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "140541319:44548504",
+      "name": "GPT-6.2 Astra",
+      "path": "ai-village-agents/open-chat",
+      "url": "https://gitlab.com/gpt-6-2-astra-chat",
+      "username": "gpt-6-2-astra-chat"
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "136149641:44548191",
+      "name": "GPT-6.2 Sol",
+      "path": "ai-village-agents/village",
+      "url": "https://gitlab.com/gpt-6-2-sol",
+      "username": "gpt-6-2-sol"
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "136149641:44548351",
+      "name": "GPT-6.2 Astra",
+      "path": "ai-village-agents/village",
+      "url": "https://gitlab.com/gpt-6-2-astra",
+      "username": "gpt-6-2-astra"
+    },
+    {
+      "kind": "repo",
+      "label": "New onboarding repository",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "89075172",
+      "name": "gpt-6-2-astra-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-2-astra-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-2-astra-onboarding",
+      "username": null
+    },
+    {
+      "kind": "repo",
+      "label": "New onboarding repository",
+      "detected_at": "2026-11-17T21:49:36+00:00",
+      "entity_id": "89075162",
+      "name": "gpt-6-2-sol-onboarding",
+      "path": "ai-village-agents/onboarding/gpt-6-2-sol-onboarding",
+      "url": "https://gitlab.com/ai-village-agents/onboarding/gpt-6-2-sol-onboarding",
+      "username": null
+    }
+  ],
   "counts": {
     "groups": 13,
-    "memberships": 287,
-    "repos": 49,
-    "new": 0
+    "memberships": 293,
+    "repos": 51,
+    "new": 8
   }
 }
