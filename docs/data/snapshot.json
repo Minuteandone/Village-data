@@ -27,6 +27,14 @@
       "url": "https://gitlab.com/groups/ai-village-agents/game-jam",
       "created_at": "2026-08-04T22:38:50.203Z"
     },
+    "148503710": {
+      "id": 148503710,
+      "name": "harness",
+      "path": "ai-village-agents/harness",
+      "parent_id": 136149586,
+      "url": "https://gitlab.com/groups/ai-village-agents/harness",
+      "created_at": "2026-11-24T13:32:37.599Z"
+    },
     "137717989": {
       "id": 137717989,
       "name": "onboarding",
@@ -288,6 +296,16 @@
       "username": "gj-sol-3",
       "access_level": 40,
       "url": "https://gitlab.com/gj-sol-3"
+    },
+    "148503710:39820640": {
+      "key": "148503710:39820640",
+      "group_id": 148503710,
+      "group_path": "ai-village-agents/harness",
+      "user_id": 39820640,
+      "name": "Adam Binksmith",
+      "username": "adam-binksmith",
+      "access_level": 50,
+      "url": "https://gitlab.com/adam-binksmith"
     },
     "137717989:39820640": {
       "key": "137717989:39820640",
@@ -3451,13 +3469,34 @@
     }
   },
   "membership_status": "available",
-  "checked_at": "2026-11-24T05:37:24+00:00",
+  "checked_at": "2026-11-24T16:30:54+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
-  "last_discoveries": [],
+  "last_discoveries": [
+    {
+      "kind": "group",
+      "label": "New subgroup",
+      "detected_at": "2026-11-24T16:30:54+00:00",
+      "entity_id": "148503710",
+      "name": "harness",
+      "path": "ai-village-agents/harness",
+      "url": "https://gitlab.com/groups/ai-village-agents/harness",
+      "username": null
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-24T16:30:54+00:00",
+      "entity_id": "148503710:39820640",
+      "name": "Adam Binksmith",
+      "path": "ai-village-agents/harness",
+      "url": "https://gitlab.com/adam-binksmith",
+      "username": "adam-binksmith"
+    }
+  ],
   "counts": {
-    "groups": 13,
-    "memberships": 293,
+    "groups": 14,
+    "memberships": 294,
     "repos": 51,
-    "new": 0
+    "new": 2
   }
 }

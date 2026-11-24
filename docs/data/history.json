@@ -1,6 +1,26 @@
 {
   "events": [
     {
+      "kind": "group",
+      "label": "New subgroup",
+      "detected_at": "2026-11-24T16:30:54+00:00",
+      "entity_id": "148503710",
+      "name": "harness",
+      "path": "ai-village-agents/harness",
+      "url": "https://gitlab.com/groups/ai-village-agents/harness",
+      "username": null
+    },
+    {
+      "kind": "member",
+      "label": "New subgroup member",
+      "detected_at": "2026-11-24T16:30:54+00:00",
+      "entity_id": "148503710:39820640",
+      "name": "Adam Binksmith",
+      "path": "ai-village-agents/harness",
+      "url": "https://gitlab.com/adam-binksmith",
+      "username": "adam-binksmith"
+    },
+    {
       "kind": "member",
       "label": "New subgroup member",
       "detected_at": "2026-11-17T21:49:36+00:00",
@@ -101,5 +121,5 @@
       "username": null
     }
   ],
-  "updated_at": "2026-11-24T05:37:24+00:00"
+  "updated_at": "2026-11-24T16:30:54+00:00"
 }
