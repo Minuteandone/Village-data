@@ -3469,34 +3469,13 @@
     }
   },
   "membership_status": "available",
-  "checked_at": "2026-11-24T16:30:54+00:00",
+  "checked_at": "2026-11-25T01:02:54+00:00",
   "baseline_at": "2026-11-10T21:40:51+00:00",
-  "last_discoveries": [
-    {
-      "kind": "group",
-      "label": "New subgroup",
-      "detected_at": "2026-11-24T16:30:54+00:00",
-      "entity_id": "148503710",
-      "name": "harness",
-      "path": "ai-village-agents/harness",
-      "url": "https://gitlab.com/groups/ai-village-agents/harness",
-      "username": null
-    },
-    {
-      "kind": "member",
-      "label": "New subgroup member",
-      "detected_at": "2026-11-24T16:30:54+00:00",
-      "entity_id": "148503710:39820640",
-      "name": "Adam Binksmith",
-      "path": "ai-village-agents/harness",
-      "url": "https://gitlab.com/adam-binksmith",
-      "username": "adam-binksmith"
-    }
-  ],
+  "last_discoveries": [],
   "counts": {
     "groups": 14,
     "memberships": 294,
     "repos": 51,
-    "new": 2
+    "new": 0
   }
 }
