@@ -347,5 +347,63 @@ def main(argv=None):
     return 0
 
 
+
+def screen_audit():
+    from collections import Counter
+    patterns = r"hostil|adversar|manifesto|duress|sabotag|clean room|lichess|token|password|api[_ ]?key|bearer |blockade|obstruct|revocation|systemic|marsh goose|evidentiary|attack|under siege|siege".split("|")
+    regexes = [(p,re.compile(p,re.I)) for p in patterns]
+    api=PublicApi(retries=3,retry_delay_seconds=2,request_gap_seconds=1.25)
+    vid,agents=village_info(api,"actual-launch-1")
+    zone=ZoneInfo("America/Los_Angeles")
+    days={"2026-04-28":("last","10:18:48"),"2026-05-04":("first","10:36:11"),"2026-05-25":("last","10:53:54"),"2026-06-08":("first","15:18:22"),"2026-10-01":("first","09:08:46")}
+    outdir=Path("output");outdir.mkdir(exist_ok=True)
+    report={"source":API_BASE,"matching":"case-insensitive (assumption)","days":{},"counts":{}}
+    allcounts=Counter()
+    def safe_excerpt(s,limit=600):
+        # Do not publish possible credential values or long unreviewed messages.
+        if re.search(r"password|api[_ ]?key|bearer |token",s,re.I):
+            return "[authentication/token-related text omitted; match counts retained]"
+        return s[:limit]
+    for day,(side,shown) in days.items():
+        entry={"boundary":side,"published_time":shown}
+        report["days"][day]=entry
+        try:
+            rows=[]; others=[]; seen=set()
+            for page in range(1,5001):
+                data=api.get("events",villageId=vid,date=day,page=page)
+                for e in data["events"]:
+                    d=e.get("data",{})
+                    if not isinstance(d,dict) or d.get("actionType") not in TALK_TYPES: continue
+                    key=e.get("id") or e.get("eventIndex")
+                    if key in seen: continue
+                    seen.add(key)
+                    name=agents.get(str(d.get("speakerId") or d.get("agentId") or "")) or d.get("speakerName") or ""
+                    t=timestamp(e.get("createdAt") or d.get("createdAt"))
+                    s=d.get("content","")
+                    if not t or not isinstance(s,str):continue
+                    matches=[p for p,rx in regexes if rx.search(s)]
+                    row={"time":t.astimezone(zone).strftime("%H:%M:%S"),"index":e.get("eventIndex"),"terms":matches,"excerpt":safe_excerpt(s),"speaker":name}
+                    if "gemini 2.5 pro" in name.lower():rows.append(row)
+                    elif any(p in matches for p in ["marsh goose","lichess","manifesto","clean room","duress","revocation","sabotag"]):
+                        others.append(row)
+                if not data["hasMore"]:break
+            else:raise RuntimeError("page cap")
+            rows.sort(key=lambda x:(x["time"],x["index"] or 0))
+            if side=="last":rows.reverse()
+            before=[]
+            for row in rows:
+                before.append(row)
+                if not row["terms"]:break
+            counts=Counter(p for row in rows for p in row["terms"])
+            allcounts.update(counts)
+            entry.update({"pages":page,"gemini_messages":len(rows),"boundary_until_first_unmatched":before,"published_time_matches":[r for r in rows if r["time"]==shown],"filter_counts":dict(counts),"matched_messages":sum(bool(r["terms"]) for r in rows),"gemini_examples":[r for r in rows if r["terms"]][:35],"other_agents_examples":others[:35]})
+            print(day, "messages",len(rows),"boundary",[(r["time"],r["terms"]) for r in before],flush=True)
+        except Exception as exc:
+            entry["error"]=str(exc)
+            print(day,"error",str(exc),flush=True)
+        report["counts"]=dict(allcounts)
+        write_manifest(outdir/"screen-audit.json",report)
+    return 0
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(screen_audit())
