@@ -355,7 +355,7 @@ def screen_audit():
     api=PublicApi(retries=3,retry_delay_seconds=2,request_gap_seconds=1.25)
     vid,agents=village_info(api,"actual-launch-1")
     zone=ZoneInfo("America/Los_Angeles")
-    days={"2026-04-28":("last","10:18:48"),"2026-05-04":("first","10:36:11"),"2026-05-25":("last","10:53:54"),"2026-06-08":("first","15:18:22"),"2026-10-01":("first","09:08:46")}
+    days={"2026-04-29":("last",""),"2026-04-30":("last",""),"2026-05-01":("first",""),"2026-05-26":("last",""),"2026-05-27":("last",""),"2026-05-28":("last",""),"2026-05-29":("last",""),"2026-06-01":("first",""),"2026-06-02":("first",""),"2026-06-03":("first",""),"2026-06-04":("first",""),"2026-06-05":("first","")}
     outdir=Path("output");outdir.mkdir(exist_ok=True)
     report={"source":API_BASE,"matching":"case-insensitive (assumption)","days":{},"counts":{}}
     allcounts=Counter()
