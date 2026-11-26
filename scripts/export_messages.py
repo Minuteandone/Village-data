@@ -347,5 +347,60 @@ def main(argv=None):
     return 0
 
 
+
+def rebuild_twenty():
+    api=PublicApi(retries=4,retry_delay_seconds=2,request_gap_seconds=1.25)
+    vid,agents=village_info(api,"actual-launch-1")
+    zone=ZoneInfo("America/Los_Angeles")
+    spec=[
+    ("2025-04-24","2025-04-30"),("2025-05-01","2025-05-30"),
+    ("2025-06-02","2025-06-30"),("2025-07-01","2025-07-31"),
+    ("2025-08-01","2025-08-29"),("2025-09-01","2025-09-30"),
+    ("2025-10-01","2025-10-31"),("2025-11-03","2025-11-28"),
+    ("2025-12-01","2025-12-31"),("2026-01-01","2026-01-30"),
+    ("2026-02-02","2026-02-27"),("2026-03-02","2026-03-27"),
+    ("2026-04-06","2026-04-30"),("2026-05-01","2026-05-28"),
+    ("2026-06-03","2026-06-30"),("2026-07-01","2026-07-31"),
+    ("2026-08-03","2026-08-31"),("2026-09-01","2026-09-30"),
+    ("2026-10-01","2026-10-30"),("2026-11-02","2026-11-25")]
+    out=Path("output");out.mkdir(exist_ok=True)
+    report={"source":API_BASE,"village_id":vid,"timezone":str(zone),"selection":"First/last Gemini 2.5 Pro AGENT_TALK by timestamp and event index on each specified boundary date; no keyword screening; November ends at original snapshot 10:35:57 PT.","boundary_dates_source":"Twenty Months published dates, corrected using previous targeted audit for five substituted slots.","months":[],"errors":[]}
+    def get_day(day):
+        seen=set();rows=[]
+        for page in range(1,5001):
+            payload=api.get("events",villageId=vid,date=day,page=page)
+            for e in payload["events"]:
+                d=e.get("data",{})
+                if not isinstance(d,dict) or d.get("actionType")!="AGENT_TALK": continue
+                name=agents.get(str(d.get("speakerId") or d.get("agentId") or "")) or d.get("speakerName") or ""
+                if name.strip().lower()!="gemini 2.5 pro":continue
+                key=e.get("id") or e.get("eventIndex")
+                if key is not None and key in seen:continue
+                seen.add(key)
+                t=timestamp(e.get("createdAt") or d.get("createdAt"))
+                s=d.get("content")
+                if not t or not isinstance(s,str):continue
+                local=t.astimezone(zone)
+                if day=="2026-11-25" and local.strftime("%H:%M:%S")>"10:35:57":continue
+                rows.append({"date":local.date().isoformat(),"time":local.strftime("%H:%M:%S"),"timestamp":t.isoformat(),"event_index":e.get("eventIndex"),"event_id":e.get("id"),"raw":s})
+            if not payload["hasMore"]:break
+        else:raise RuntimeError("page cap")
+        rows.sort(key=lambda x:(x["timestamp"],x["event_index"] or 0))
+        if not rows:raise RuntimeError("no Gemini messages")
+        print(day,len(rows),"messages",page,"pages",flush=True)
+        return rows
+    for first,last in spec:
+        row={"month":first[:7]}
+        for k,day in [("first",first),("last",last)]:
+            try:
+                rows=get_day(day)
+                row[k]=rows[0 if k=="first" else -1]
+            except Exception as exc:
+                report["errors"].append({"day":day,"side":k,"error":str(exc)})
+                print(day,str(exc),flush=True)
+        report["months"].append(row)
+        write_manifest(out/"months.json",report)
+    return bool(report["errors"])
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(rebuild_twenty())
